@@ -1,0 +1,51 @@
+- title: Home
+  url: "/"
+  side: left
+
+
+- title: "Articles"
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Archive"
+    url: "/blog/archive/"
+
+- title: "Code Snips"
+  url: "/code-snips/"
+  side: left
+  dropdown:
+  - title: "python3"
+    url: "/python3/"
+  - title: "JavaScript"
+    url: "/js/"
+
+# - title: Documentation
+#   url: "/documentation/"
+#   side: left
+#   dropdown:
+#   - title: "Changelog"
+#     url: "/changelog/"
+#   - title: "Roadmap"
+#     url: "/roadmap/"
+
+# - title: Blog
+#   url: "/blog/"
+#   side: left
+#   dropdown:
+#   - title: "Blog Archive"
+#     url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: About
+  url: "/about/"
+  side: right
+  dropdown:
+  - title: "Resume"
+    url: "/cv/"
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

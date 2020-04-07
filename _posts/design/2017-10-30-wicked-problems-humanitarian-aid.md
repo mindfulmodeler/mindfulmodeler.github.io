@@ -1,0 +1,37 @@
+---
+layout: page
+# sidebar: left
+subheadline: Wicked problems in humanitarian aid
+title:  "The Governance of Epidemic Responses in Conflict Zones"
+teaser: "A reflection on Rittel and Webber's *Wicked Problems* (1973) applied to a complex humanitarian emergency."
+breadcrumb: true
+tags:
+    - water and sanitation policymaking
+    - engineering ethics
+    - development in conflict
+    - governance of epidemic response
+    - wicked problems
+    - article
+categories:
+    - policy
+header:
+    image_fullwidth: "/ebola.JPG"
+# header:
+#     image: ebola.JPG
+#     pattern: pattern_concrete.jpg
+#     caption: This is a caption for the header image with link
+#     caption_url: https://unsplash.com/
+show_meta: true
+---
+__A B S T R A C T__
+
+Around the world, millions of citizens are trapped by a combination of two major disasters; namely, violent conflicts and epidemics. Easily treatable diseases become virtually impossible for international organizations to combat in the midst of a war zone. By performing a literature review on complex humanitarian emergencies occurring in the last two decades, we explored the characteristics of governance that affect the control of an infectious disease outbreak in a conflict zone. As a result of the literature review, we found that a lack of trust between actors prolonged the emergency and also increased the likelihood of future emergencies to occur. There is need for more research into the strategies of global response organizations and working in zones where the formal governance structures have collapsed. Additionally, as a precursor to eliminating bottlenecks, future studies should look more closely at the hindrances faced by each actor during complex emergencies.
+
+Click here to view full paper: [The Governance of Epidemic Responses in Conflict Zones](https://github.com/shannongross/shannongross.github.io/blob/master/pdfs/grand_challenges.pdf)
+
+
+
+<!-- 
+## Other Modeling Posts
+{: .t60 }
+{% include list-posts tag='modeling' %} -->
