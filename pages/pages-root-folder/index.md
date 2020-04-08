@@ -59,7 +59,7 @@ permalink: /index.html
 homepage: true
 ---
 
-![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.jpg)
-
-Exploratory Modeling Tips
+<!-- ![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.jpg)
+ -->
+<!-- Exploratory Modeling Tips -->
 

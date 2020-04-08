@@ -1,9 +1,9 @@
 ---
 layout: page
 show_meta: false
-title: "About"
-subheadline: "A Step-by-Step Guide"
-teaser: "This step-by-step guide helps you to customize Feeling Responsive to your needs."
+title: "Shannon M. Gross"
+subheadline: "About Me"
+teaser: "Making models to make a difference"
 header:
    image_fullwidth: "/unsplash_water5.jpg"
 permalink: "/about/"
@@ -13,7 +13,7 @@ of preventing disease, prolonging life, and promoting health through organized e
 a public health engineer, I use a combination of cutting-edge computer science techniques and traditional
 engineering principles to support the strategic prevention of disease.</p> -->
 
-# Shannon M. Gross
+
 As a lifelong student and future-focused thinker, my mission is to continuously acquire technical skills and use them to improve the world around me. I believe that many of the biggest challenges we face in business, government, and society are technically solvable but require greater collaboration, motivation, and reasoned thinking if we are to sufficiently address them during our lifetime. 
 
 My personal academic research has long focused on the issue of water-related illnesses, which are some of the biggest drivers of mortality and morbidity around the world even though they are widely preventable with modern knowledge and technology. Many pressing issues seem to share this theme: the problem has an apparently straightforward solution and yet we cannot seem to achieve it. I enjoy facilitating this discussion by helping friends and clients to realize potential roadblocks, opportunties, and scenarios they perhaps had not considered before. 

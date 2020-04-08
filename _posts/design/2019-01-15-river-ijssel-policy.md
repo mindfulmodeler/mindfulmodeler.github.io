@@ -4,7 +4,7 @@ sidebar: left
 # subheadline: Single and multivariate linear regression
 title:  "Exploratory Policy Modeling for Flood Management"
 teaser: "This project uses advanced exploratory modeling techniques to provide policy support on a water management case study."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - policy analysis with python
     - water management
@@ -15,7 +15,7 @@ tags:
 categories:
     - modeling
 header:
-    image_fullwidth: "/ijssel.webp"
+    image_fullwidth: "/nl.jpg" #"/ijssel.webp"
 show_meta: true
 ---
 

@@ -1,10 +1,12 @@
 ---
 layout: page
+sidebar: left
+header: no
 subheadline: Cholera in Haiti
 title:  "Legitimizing Haitian Water Grievances"
 teaser: "Reflection on the United Nation's role in the cholera outbreak in Haiti"
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
-breadcrumb: true
+# breadcrumb: true
 categories:
     - policy
 tags:
@@ -13,8 +15,10 @@ tags:
     - global public health
     - writing sample
     - article
-image:
-    title: /haiti.jpg
+# image:
+#     title: /haiti.jpg
+header:
+   image_fullwidth: "/handwashing.jpg"
 author: Shannon M. Gross
 ---
 
@@ -23,6 +27,8 @@ For the first time in a hundred years, there was suddenly Vibrio cholera in Hait
 Historical records indicated no reported cases of cholera in Haiti before the U.N.’s arrival in 2010. Moreover, investigators found that the epidemic began at a single point where the Nepalese peacekeepers were stationed. It was also determined that the Haitian outbreak involved a strain particular to Nepal.
 
 Thousands of Haitian victims have demanded that the U.N. compensate them for their illnesses and the death of loved ones, but the U.N. refuses to discuss their claims. The international organization possesses absolute immunity from lawsuits –unless it explicitly waives that right– and denies any responsibility for bringing cholera to Haiti. Not wanting to accept complete financial responsibility for the epidemic, U.N. officials have remained silent on the issue, and its top lawyer simply cited “policy concerns” for the reasons the victims were “not receivable”.
+
+![Cholera in Haiti](../images/haiti.jpg)
 
 The U.N.’s refusal to establish a claims commission, waive its immunity, or apologize for the harms caused by its negligence denies the victims the possibility of redress or compensation for their suffering. This course of dismissal has fueled Haitian outrage and must not continue.
 
@@ -33,7 +39,7 @@ Still, without a formal commission to recognize their grievances, victims may ne
 A joint initiative focused on establishing a forum to recognize the victims’ claims is instrumental to begin the healing process. Such a commission would bring legitimacy to Haitian claims while repairing the U.N.’s tarnished moral credibility in the region, and could be done in a non-adversarial manner. Doing so would be politically feasible for the U.N. and would move away from fault-finding toward a direction that focuses on the common goals shared by each side, namely: stopping the epidemic, guaranteeing treatment for the sick and ensuring that a similar tragedy does not happen in the future. To be truly effective, a joint initiative requires the meaningful participation of local populations in the humanitarian aid process, and recognition that feedback from those receiving aid is inherently valuable.
 
 
-<!-- ## Other Posts
+## Other Posts
 {: .t60 }
-{% include list-posts tag='policy' %} -->
+{% include list-posts tag='policy' %}
 

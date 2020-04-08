@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Vensim and EMA 
 title:  "Vensim and EMA Workbench"
 teaser: "Tips and tricks for the intermediate to advanced Vensim user. Covers connecting quantitative models to the exploratory modeling analysis (EMA workbench) tool."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - exploratory modeling
     - EMA workbench

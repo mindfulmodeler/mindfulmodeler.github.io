@@ -1,10 +1,11 @@
 ---
 layout: page
-sidebar: right
+header: no
+# sidebar: right
 subheadline: Saudi student inclusion
 title:  "Bringing Saudi Back"
 teaser: "Student newspaper story discusses the rise in students from Saudi Arabia on Gannon's campus and their struggles to integrate with native students."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - feature story
     - writing sample
@@ -53,10 +54,6 @@ Ahmed Nasser, a 26-year old from Riyadh, agrees that there are cultural differen
 Still, Nasser has made many friends in just a few months at Gannon and expresses interest in traveling after graduation or getting a job in America for a few years, rather than immediately returning home. Whether students like Nasser and Ahaihi decide to stick around or go home after graduation, obtaining an American education is a life-changing opportunity for them. To the typical American student, however, the presence of these foreign students may not be so dramatic. Thomas Church, a business student who was born and raised in Erie County, shrugs when asked about the Saudi students.
 
 “They seem alright,” Church says. “But honestly, I’ve never talked to one.”
-
-~~~
-show_meta: true
-~~~
 
 
 

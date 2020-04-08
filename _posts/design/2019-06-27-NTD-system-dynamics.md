@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Single and multivariate linear regression
 title:  "System Dynamics Modeling for Neglected Tropical Diseases"
 teaser: "Application of system dynamics modeling to an understudied public health problem."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - system dynamics modeling
     - policy analysis with python
@@ -53,7 +53,7 @@ The main feedback loop in this model highlights the significance of having an in
 * **Cost**: Comparing the costs of mass drug administration (“Total cost of MDA”) to the cost of constructing new sanitation facilities (“Annual WASH construction budget”), facilitates program design and budget allocation.
 * **Mean Worm Burden**: The average intensity of infection per AgeGroup. For example, a Pre-SAC worm burden of “10” means that the average infected pre-school aged child in that country hosts 10 adult worms. Due to higher soil contact rates, Pre-SAC and SAC populations generally have the highest-intensity infections.
 
-![stock flow diagram]({{site.baseurl}}/images/ascaris_sfd.png)
+![stock flow diagram]({{site.baseurl}}/images/ascaris_sfd.webp){:target="_blank"}
 
 ## Critical assumptions
 * No data are available on the number of sanitation facilities in India or Nigeria for the years 1960-1990. For this time period, sanitation access was estimated.  

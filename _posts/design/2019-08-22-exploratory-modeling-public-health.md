@@ -15,7 +15,7 @@ tags:
 categories:
     - modeling
 header:
-    image: exp.webp
+    image: "/exp.webp"
     background-color:  "white"
     # pattern: pattern_concrete.jpg
 # image:

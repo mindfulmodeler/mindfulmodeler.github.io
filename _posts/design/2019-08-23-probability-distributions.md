@@ -4,7 +4,7 @@ layout: page
 subheadline: Beyond the Normal (distribution)
 title:  "Understanding common probability distributions"
 teaser: "An introduction to common probability distributions and their visualization in Python using Seaborn."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - policy analysis with python
     - statistical distributions
@@ -15,7 +15,7 @@ tags:
 categories:
     - tutorial
 header:
-    image: "/distribution-main.webp"
+    image_fullwidth: "/distribution-main.webp"
 # image:
 #     title: /distribution-main.webp
 show_meta: true

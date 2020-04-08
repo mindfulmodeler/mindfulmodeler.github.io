@@ -3,8 +3,8 @@ layout: page
 sidebar: left
 subheadline: Database Management Systems
 title:  "Introduction to Database Management Systems"
-teaser: "Basic SQLite3 commands and relational database management concepts."
-breadcrumb: true
+teaser: "Basic SQL commands and relational database management concepts."
+# breadcrumb: true
 tags:
     - SQLite3
     - big data management

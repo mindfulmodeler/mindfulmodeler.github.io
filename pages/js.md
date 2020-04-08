@@ -48,7 +48,7 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
 
    <div class="medium-6 columns">
       <p><strong>{{ site.data.language.more_articles }}</strong></p>
-      {% include list-posts entries='3' offset='1' category='policy' %}
+      {% include list-posts entries='3' offset='1' tag='javascript' %}
    </div>
 </div>
 

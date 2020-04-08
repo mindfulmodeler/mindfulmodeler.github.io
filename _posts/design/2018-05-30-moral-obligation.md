@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Obligation vs Free Will
 title:  "The Moral Obligation of Engineers to Fight Global Poverty"
 teaser: "A critical reflection of technology in humanitarian and development work."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - engineering ethics
     - water and sanitation

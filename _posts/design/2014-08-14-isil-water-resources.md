@@ -1,10 +1,11 @@
 ---
 layout: page
+header: no
 subheadline: Water resources and American foreign policy objectives
 title:  "The Islamic State: Syria, Iraq, and Water Resources"
 teaser: "Written at the beginning of the Islamic State's expansion, this paper explores the connection between rising social and political tensions in the MENA region and environmental factors."
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
-breadcrumb: true
+# breadcrumb: true
 categories:
     - policy
 tags:

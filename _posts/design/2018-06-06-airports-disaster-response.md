@@ -4,7 +4,7 @@ sidebar: left
 # subheadline: Single and multivariate linear regression
 title:  "Airports in Disaster Response"
 teaser: "This project focuses on using existing, publicly available databases to facilitate decisions regarding prioritization of airport preparedness resources."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - airports in disasters
     - python for policy analysis

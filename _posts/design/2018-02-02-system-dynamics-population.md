@@ -1,10 +1,10 @@
 ---
 layout: page
-# sidebar: left
-# subheadline: System dynamics population model example
+sidebar: left
+subheadline: System dynamics population model example
 title:  "Example System Dynamics Population Model"
 teaser: "For beginners to system dynamics modelling and/or Vensim, this is an example model that uses population data from Uganda to show some basic continuous modeling principles."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - exploratory modeling
     - policy analysis with python
@@ -13,14 +13,9 @@ tags:
     - article
 categories:
     - modeling
-# image:
-#     title: "/pop_model.png"
 header:
-    image: pop_model.png
-    background-color: "skyblue"
-    caption: System dynamics population model example
-    caption_url: https://unsplash.com/
-show_meta: true
+   image_fullwidth: "/pop_model2.png"
+# show_meta: true
 ---
 
 ## Population Growth in Uganda

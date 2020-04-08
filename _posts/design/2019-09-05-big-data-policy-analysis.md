@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Big data in policy analysis
 title:  "The Politicization of Big Data"
 teaser: "How subjective preferences and subtle politics influences the success of a big data analysis project."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - big data problems
     - policy analysis
@@ -16,12 +16,7 @@ categories:
     - policy
 image:
     title: /divide2.webp
-# header:
-#     image_fullwidth: "/divide2.webp"
-    # caption: Open exploration in EMA workbench
-    # caption_url: https://unsplash.com/
-# image:
-#     title: /divide2.webp
+header: no
 show_meta: true
 ---
 Innovative new tech opportunities such as machine learning, big data analysis, and cloud computing are already disrupting a wide variety of global issues. To be a part of the cool shift towards advanced computing though, you'll have to master a lot of old-school things like [classical statistics](/hypothesis-testing/) and [probability distributions](/probability-distributions/), which is why I've included several tutorials in this blog. But you'll find no examples of coin flips and dice-rolling here, because you can find that in plenty of other textbooks and websites. Instead, my focus is on the messy and uncertain situations that surround real-world policymakers. While the political decisionmakers who craft our environmental regulations, disaster budgets, and health insurance policies certainly rely on mathematical and statistical information, there is (hopefully) more to their decision making than measuring and coin-flipping.

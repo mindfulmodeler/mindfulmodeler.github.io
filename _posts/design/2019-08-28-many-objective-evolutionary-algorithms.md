@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Optimization algorithm for high-dimensional datasets
 title:  "Many-Objective Evolutionary Algorithms"
 teaser: "An easy introduction to many-objective evolutionary algorithms and what they mean for policy analysis."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - exploratory modeling
     - ema workbench

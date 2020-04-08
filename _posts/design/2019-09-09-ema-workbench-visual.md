@@ -4,7 +4,6 @@ sidebar: left
 subheadline: Open exploration in EMA workbench
 title:  "Open Exploration in EMA Workbench - Visualization Examples"
 teaser: "Visualization tips for open exploration of model objectives using EMA workbench."
-breadcrumb: true
 tags:
     - policy analysis with python
     - ema workbench
@@ -15,7 +14,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/rotav_OE_title.webp"
+    image_fullwidth: "/nl-water.jpg"
     # caption: Open exploration in EMA workbench
     # caption_url: https://unsplash.com/
 image:

@@ -1,10 +1,10 @@
 ---
 layout: page
-# sidebar: left
+sidebar: left
 subheadline: Wicked problems in humanitarian aid
 title:  "The Governance of Epidemic Responses in Conflict Zones"
 teaser: "A reflection on Rittel and Webber's *Wicked Problems* (1973) applied to a complex humanitarian emergency."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - water and sanitation policymaking
     - engineering ethics
@@ -14,8 +14,9 @@ tags:
     - article
 categories:
     - policy
-header:
+header: 
     image_fullwidth: "/ebola.JPG"
+
 # header:
 #     image: ebola.JPG
 #     pattern: pattern_concrete.jpg

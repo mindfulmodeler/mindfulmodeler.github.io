@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Introduction to R programming.
 title:  "A Python Lover's Guide for Getting Started with R"
 # teaser: "A python lover's guide for getting started with R."
-breadcrumb: true
+# breadcrumb: true
 tags:
     - R for policy analysis
     - statistics for data science
