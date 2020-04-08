@@ -14,7 +14,7 @@ title: 'Shannon Gross'
 slogan: 'A Flexible Theme for Jekyll'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»ButterPy« is a tech and policy analysis blog written by an engineer
+description: '»Mindful Modeler« is a tech and policy analysis blog written by an engineer
   interested in addressing complex global challenges.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
@@ -27,11 +27,11 @@ author: Shannon M. Gross
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://mindfulmodeler.github.io'
-baseurl: '/home'
+baseurl: #'/home'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: https://github.com/mindfulmodeler/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -39,7 +39,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: /home/images
+urlimg: /images #/home/images
 # 'https://phlow.github.io/feeling-responsive/images/'
 
 
