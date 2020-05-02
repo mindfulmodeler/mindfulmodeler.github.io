@@ -28,6 +28,7 @@ author: Shannon M. Gross
 #
 url: 'https://mindfulmodeler.github.io' #'http://www.mindfulmodeler.com'
 baseurl: #'/home'
+urlimg: 	'http://localhost:4000/images/'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages

@@ -10,7 +10,7 @@ header:
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'
-  image: '/water-well-collection.webp'
+  image: '/water-well-collection.png'
   text: 'Using a DES model to simulate women queueing at a water collection point.'
 widget2:
   title: "System Dynamics Modeling for Neglected Tropical Diseases"
