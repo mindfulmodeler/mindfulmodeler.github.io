@@ -15,7 +15,7 @@ tags:
 categories:
     - modeling
 image:
-    title: /water-well-collection.webp
+    title: /water-well-collection.png
 header: no
 show_meta: true
 comments: true

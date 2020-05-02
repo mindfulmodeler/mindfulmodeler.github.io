@@ -13,7 +13,7 @@ tags:
 categories:
     - tutorial
 header: 
-    image_fullwidth: "/hypoth_testing_cover.webp"
+    image_fullwidth: "/hypoth_testing_cover.png"
 comments: true
 ---
 
