@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "/unsplasG.jpg"
+  image_fullwidth: "/unsplash_water3.jpg"
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'

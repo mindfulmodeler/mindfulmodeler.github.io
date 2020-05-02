@@ -24,10 +24,9 @@ widget3:
   image: '/modeling/NTD-system-dynamics/'
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 ---
-## heya
-Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
+Content coming soon.
 
-
+<!-- 
 ![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
 
 
@@ -72,4 +71,4 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
     {% endif %}  
-</div>
+</div> -->

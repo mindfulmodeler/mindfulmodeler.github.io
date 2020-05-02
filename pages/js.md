@@ -25,7 +25,10 @@ widget3:
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 
 ---
-## JavaScript Topics
+Content coming soon.
+
+
+<!-- ## JavaScript Topics -->
 {% for snip in site.snips %}
    <h2>{{ snip.title }} - {{ snip.teaser }}</h2>
    <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
@@ -33,16 +36,15 @@ widget3:
 
 
 
+
+<!-- {% include alert success="Yay! you did it!" %}
+
 Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
 
-{% include alert success="Yay! you did it!" %}
-
-Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
-
-![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
+![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp) -->
 <!-- <p>{{ snip.content | markdownify }}</p> -->
 
-<div class="row">
+<!-- <div class="row">
    <div class="medium-6 columns">
       {% for post in site.posts limit:1 %}
       {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
@@ -58,18 +60,18 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
       <p><strong>{{ site.data.language.more_articles }}</strong></p>
       {% include list-posts entries='3' offset='1' tag='javascript' %}
    </div>
-</div>
+</div> -->
 
 
-
+<!-- 
 ## Ideas and possible new features
 {: .t30 } 
 
 * Get rid of Backstretch.js and solve it with pure CSS
 * [Custom Scrollbar](https://css-tricks.com/custom-scrollbars-in-webkit/)
-* Layout/Template for category-archives
+* Layout/Template for category-archives -->
  
-<div class="row t60">
+<!-- <div class="row t60">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -81,4 +83,4 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
     {% endif %}  
-</div>
+</div> -->
