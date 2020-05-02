@@ -26,7 +26,7 @@ author: Shannon M. Gross
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://www.mindfulmodeler.com' #'https://mindfulmodeler.github.io'
+url: 'https://mindfulmodeler.github.io' #'http://www.mindfulmodeler.com'
 baseurl: #'/home'
 
 # This is for the editing function in _/includes/improve_content
