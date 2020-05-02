@@ -25,7 +25,7 @@ widget3:
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 
 ---
-## heya
+## JavaScript Topics
 {% for snip in site.snips %}
    <h2>{{ snip.title }} - {{ snip.teaser }}</h2>
    <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
