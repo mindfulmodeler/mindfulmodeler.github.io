@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "/rotav_OE_title.webp"
+  image_fullwidth: "/unsplasB.jpg"
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'
@@ -16,21 +16,21 @@ widget2:
   title: "System Dynamics Modeling for Neglected Tropical Diseases"
   url: '/modeling/NTD-system-dynamics/'
   text: 'Application of system dynamics modeling to an understudied public health problem.'
-  image: '/ascaris_sfd.webp'
+  image: '/ascaris_sfd.png'
 widget3:
   title: "Hypothesis Testing in Policy Analysis"
   url: '/tutorial/hypothesis-testing/'
-  image: '/hypoth_testing_cover.webp'
+  image: '/hypoth_testing_cover.png'
   text: 'A discussion of the appropriateness of classical statistics including hypothesis testing in complex policy analysis problems.'
 widget4:
   title: "Many-Objective Evolutionary Algorithms"
   url: '/tutorial/many-objective-evolutionary-algorithms/'
-  image: '/rob3.webp'
+  image: '/rob3.png'
   text: 'An easy introduction to many-objective evolutionary algorithms and what they mean for policy analysis.'
 widget5:
   title: "A Python Lover's Guide for Getting Started with R"
   url: '/tutorial/getting-started-with-R/'
-  image: '/R-intro.webp'
+  image: '/R-intro.png'
   text: 'Introduction to R programming.'
 widget6:
   title: "Poverty Rates in Uganda - Multivariate Linear Regression"
