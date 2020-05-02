@@ -4,7 +4,6 @@ sidebar: left
 subheadline: Optimization algorithm for high-dimensional datasets
 title:  "Many-Objective Evolutionary Algorithms"
 teaser: "An easy introduction to many-objective evolutionary algorithms and what they mean for policy analysis."
-# breadcrumb: true
 tags:
     - exploratory modeling
     - ema workbench
@@ -16,9 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/rob3.webp"
-# image:
-#     title: /rob3.webp
 show_meta: true
+comments: true
 ---
 
 Think of a decision you struggled with recently. Whatever the decision was, perhaps one of the reasons you struggled with it was because it contained more than one objective.

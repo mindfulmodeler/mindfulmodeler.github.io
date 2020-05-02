@@ -1,0 +1,34 @@
+---
+published: false
+
+layout: post
+title: Bayesian
+date: 2020-04-12
+description: Bayes notes
+img:  # Add image post (optional)
+fig-caption:
+tags: [modeling, simulation, discrete]
+categories: Modeling
+---
+
+* **Bayesian inference**: the reallocation of credibility across possibiliites
+  - *possibilities* are parameter values in meaningful mathematical models
+  - the credibilities of all the possibilities will add up to 1
+  - the re-allocated distribution of credibility is the **posterior distribution**. It is what we now believe after taking in new evidence. It then becomes the prior beliefs if we are going to keep making new obeservations. 
+
+* “How often have I said to you that when you have eliminated the impossible, whatever
+remains, however improbable, must be the truth?” (Doyle, 1890, chap. 6)
+
+As you gain more information through your observations of the system, you begin to learn that certain explanations are more credible than others. It's a very natural way to learn
+
+* The shape of the Normal Distribution is described by two parameters:
+  1. The **location parameter** (mean) describes the central tendency of the distribution
+  2. The **scale parameter** (standard deviation) describes the width/dispersion of the distribution
+  - Bayesian is all about adjusting parameters like these until you find a curve that fits the data well.
+  - But just because you've found a good mathematical fit does not mean that you have a **causal explanation**. We still don't know what happened that led to the data having that form in the real world. 
+
+Steps of Bayesian Analysis:
+1. What variable(s) are you trying to predict? (and what are your predictors) 
+2. Define a model that appropriately describes the data
+3. Specify a prior distribution on the params
+

@@ -23,8 +23,16 @@ widget3:
   url: '/tutorial/'
   image: http://localhost:4000/home/images/hypoth_testing_cover.webp
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
+
 ---
 ## heya
+{% for snip in site.snips %}
+   <h2>{{ snip.title }} - {{ snip.teaser }}</h2>
+   <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
+{% endfor %}
+
+
+
 Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
 
 {% include alert success="Yay! you did it!" %}
@@ -32,7 +40,7 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
 Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
 
 ![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
-
+<!-- <p>{{ snip.content | markdownify }}</p> -->
 
 <div class="row">
    <div class="medium-6 columns">

@@ -4,13 +4,13 @@ sidebar: left
 subheadline: Single and multivariate linear regression
 title:  "Linear Regression in Python"
 teaser: "Applying single and multivariate linear regression using python to a global policy problem."
-breadcrumb: true
 tags:
     - policy analysis with python
     - understanding linear regression
     - statistics for data science
     - beginner machine learning
     - article
+    - python
 categories:
     - tutorial
 header:
@@ -19,6 +19,7 @@ header:
     caption: Mapping with GeoPandas in Python
     caption_url: https://unsplash.com/
 show_meta: true
+comments: true
 ---
 
 Linear regression is useful for evaluating the relationship between a dependent variable and a set of independent variables. A linear regression model produces a function in which each coefficient describes the relationship between a particular outcome of interest (e.g. mortality rate) and a set of explanatory variables (e.g. age, income, access to clean water). Once you have this equation, you can use it to make predictions about your data. For instance, how would a certain policy targeted at increasing access to clean water affect mortality rates? By changing the explanatory variables (e.g. increase clean water access), analysts can simulate a policy intervention and learn how it might affect the target variable of interest.

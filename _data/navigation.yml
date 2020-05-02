@@ -10,8 +10,8 @@
   - title: "Archive"
     url: "/blog/archive/"
 
-- title: "Code Snips"
-  url: "/code-snips/"
+- title: "Code Tutorials"
+  url: "/code-tutorials/"
   side: left
   dropdown:
   - title: "python3"
@@ -42,9 +42,9 @@
 - title: About
   url: "/about/"
   side: right
-  dropdown:
-  - title: "Resume"
-    url: "/cv/"
+  # dropdown:
+  # - title: "Resume"
+  #   url: "/cv/"
 
 - title: "Contact"
   url: "/contact/"

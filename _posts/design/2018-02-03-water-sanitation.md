@@ -4,20 +4,19 @@ sidebar: left
 subheadline: Cultural perceptions of water and sanitation
 title:  "Cultural Factors affecting Sanitation in sub-Saharan Africa"
 teaser: "How do cultural differences between Sub-Saharan communities and western engineers affect humanitarian aid projects designed to improve sanitation conditions?"
-# breadcrumb: true
 tags:
     - water and sanitation norms
     - development culture
     - engineering ethics
     - humanitarian aid effectiveness
     - article
+    - writing sample
 categories:
     - policy
 header:
     image_fullwidth: "/africa.webp"
-    # caption: This is a caption for the header image with link
-    # caption_url: https://unsplash.com/
-# show_meta: true
+show_meta: true
+comments: true
 ---
 
 __A B S T R A C T__
@@ -30,6 +29,6 @@ View full paper at: [Sanitation in sub-Saharan Africa](https://github.com/shanno
 
 
 
-## Other Modeling Posts
+## Other Writing Samples
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='writing sample' %}

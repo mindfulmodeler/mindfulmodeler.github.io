@@ -17,6 +17,7 @@ categories:
 header:
     image_fullwidth: "/multi-linreg-uganda-maps2.jpg"
 show_meta: true
+comments: true
 ---
 Uganda is a low-income country with low rates of access to clean water and improved sanitation. The Government of Uganda, in partnership with many international agencies, has made huge strides in recent years at reducing the rates of preventable early deaths due to risk factors like poverty, poor water quality, and inadequate sanitation. However, more work remains. With the increasing spread of technology, we have more data about the factors contributing to poor health and poverty in remote areas - raising the question, "can machine learning add value to our understanding of the issue?"
 

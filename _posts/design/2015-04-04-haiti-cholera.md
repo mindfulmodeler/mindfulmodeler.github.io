@@ -20,6 +20,7 @@ tags:
 header:
    image_fullwidth: "/handwashing.jpg"
 author: Shannon M. Gross
+comments: true
 ---
 
 For the first time in a hundred years, there was suddenly Vibrio cholera in Haiti. It didn’t take long for epidemiologists to trace the origin of the cholera outbreak to a group of United Nations peacekeepers from Nepal who were found piping their excrement into a nearby tributary. To the indignation of human rights organizations everywhere, the U.N. denied –and continues to deny– responsibility for the 8,000 dead and 700,000 contaminated Haitians from the cholera outbreak. The evidence against the organization, however, is difficult to deny.
@@ -28,7 +29,7 @@ Historical records indicated no reported cases of cholera in Haiti before the U.
 
 Thousands of Haitian victims have demanded that the U.N. compensate them for their illnesses and the death of loved ones, but the U.N. refuses to discuss their claims. The international organization possesses absolute immunity from lawsuits –unless it explicitly waives that right– and denies any responsibility for bringing cholera to Haiti. Not wanting to accept complete financial responsibility for the epidemic, U.N. officials have remained silent on the issue, and its top lawyer simply cited “policy concerns” for the reasons the victims were “not receivable”.
 
-![Cholera in Haiti](../images/haiti.jpg)
+![Cholera in Haiti]({{site.baseurl}}/images/haiti.jpg)
 
 The U.N.’s refusal to establish a claims commission, waive its immunity, or apologize for the harms caused by its negligence denies the victims the possibility of redress or compensation for their suffering. This course of dismissal has fueled Haitian outrage and must not continue.
 
@@ -39,7 +40,7 @@ Still, without a formal commission to recognize their grievances, victims may ne
 A joint initiative focused on establishing a forum to recognize the victims’ claims is instrumental to begin the healing process. Such a commission would bring legitimacy to Haitian claims while repairing the U.N.’s tarnished moral credibility in the region, and could be done in a non-adversarial manner. Doing so would be politically feasible for the U.N. and would move away from fault-finding toward a direction that focuses on the common goals shared by each side, namely: stopping the epidemic, guaranteeing treatment for the sick and ensuring that a similar tragedy does not happen in the future. To be truly effective, a joint initiative requires the meaningful participation of local populations in the humanitarian aid process, and recognition that feedback from those receiving aid is inherently valuable.
 
 
-## Other Posts
+## Other Writing Samples
 {: .t60 }
-{% include list-posts tag='policy' %}
+{% include list-posts tag='writing sample' %}
 

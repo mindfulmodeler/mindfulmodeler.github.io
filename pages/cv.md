@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page-fullwidth
 title: "Shannon M. Gross Resume"
 subheadline: "CV"
@@ -115,4 +115,4 @@ image:
 
  -->
 
-
+ -->

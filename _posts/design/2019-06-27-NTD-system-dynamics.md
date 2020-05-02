@@ -4,7 +4,6 @@ sidebar: left
 subheadline: Single and multivariate linear regression
 title:  "System Dynamics Modeling for Neglected Tropical Diseases"
 teaser: "Application of system dynamics modeling to an understudied public health problem."
-# breadcrumb: true
 tags:
     - system dynamics modeling
     - policy analysis with python
@@ -16,6 +15,7 @@ categories:
 header:
     image_fullwidth: "/ascaris_sfd.webp"
 show_meta: true
+comments: true
 ---
 
 It is estimated that up to 24% of the global population is infected by the parasitic worm *Ascaris lumbricoides*. Take a moment to let that sink in - that's nearly **one in four human beings** on planet earth today.

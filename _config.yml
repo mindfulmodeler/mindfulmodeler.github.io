@@ -11,7 +11,7 @@
 title: 'Shannon Gross'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'Making models to make a difference'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '»Mindful Modeler« is a tech and policy analysis blog written by an engineer
@@ -51,6 +51,11 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+
+
+collections:
+  snips:
+    output: true
 
 
 #       ____              _             __  _
@@ -114,7 +119,7 @@ defaults:
     values:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: false
+      comments: true
       author: Shannon M. Gross     # Default author for pages
   -
     scope:
@@ -123,7 +128,7 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
+      comments: true
       author: Shannon M. Gross      # Default author for posts
 
 
@@ -196,8 +201,8 @@ og_type:                            'website'
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    twitter: mindfulmodeler
+    # facebook: phlow.media
 
 
 #        ____  _
@@ -209,7 +214,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+disqus_shortname: mindfulmodeler
 
 
 #      _____

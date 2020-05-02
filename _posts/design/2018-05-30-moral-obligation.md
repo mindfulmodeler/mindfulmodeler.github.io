@@ -4,18 +4,19 @@ sidebar: left
 subheadline: Obligation vs Free Will
 title:  "The Moral Obligation of Engineers to Fight Global Poverty"
 teaser: "A critical reflection of technology in humanitarian and development work."
-# breadcrumb: true
 tags:
     - engineering ethics
     - water and sanitation
     - deontology in engineering
     - morality and technology
     - article
+    - writing sample
 categories:
     - policy
 header:
     image_fullwidth: "/poverty.webp"
 show_meta: true
+comments: true
 ---
 
 __Written for the TU Delft Honors Program 2018__
@@ -27,6 +28,6 @@ Ethicists have made the case that people living in rich countries have a moral d
 View full paper at: [The Moral Obligation of Engineers to Fight Global Poverty](https://github.com/shannongross/shannongross.github.io/blob/master/pdfs/obligation.pdf)
 
 
-## Other Policy Posts
+## Other Writing Samples
 {: .t60 }
-{% include list-posts tag='policy' %}
+{% include list-posts tag='writing sample' %}

@@ -4,7 +4,6 @@ sidebar: right
 subheadline: Classic uses of hypothesis testing
 title:  "Hypothesis Testing in Policy Analysis"
 teaser: "A discussion of the appropriateness of classical statistics including hypothesis testing in complex policy analysis problems."
-# breadcrumb: true
 tags:
     - frequentist statistics
     - hypothesis testing in policymaking
@@ -15,7 +14,7 @@ categories:
     - tutorial
 header: 
     image_fullwidth: "/hypoth_testing_cover.webp"
-# show_meta: true
+comments: true
 ---
 
 <div class="panel radius" markdown="1">

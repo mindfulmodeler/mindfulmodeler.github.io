@@ -4,7 +4,6 @@ sidebar: right
 subheadline: Evidence-based public health policymaking.
 title:  "Using Exploratory Modeling to Support Public Health Policy"
 teaser: "Justification for greater use of exploratory modeling in public health policymaking."
-breadcrumb: true
 tags:
     - public health
     - systems thinking
@@ -17,10 +16,8 @@ categories:
 header:
     image: "/exp.webp"
     background-color:  "white"
-    # pattern: pattern_concrete.jpg
-# image:
-#     title: /exp.webp
 show_meta: true
+comments: true
 ---
 Evidence-based public health policymaking is difficult. One reason for this difficulty is because the “evidence” presented to decision makers is often too specialized to address broad policy concerns. This is especially the case in low-income countries, where evidence to support health policymaking is often lacking or inappropriate (e.g. suggesting overly-technical solutions). Quantitative modelling is useful for simulating the effects of different disease interventions, particularly when testing them in real life would be impractical or unethical. The vast majority of quantitative models, however, are used by researchers to design a control strategy against a single pathogen of interest. Unfortunately, looking at one pathogen in isolation is much less useful from a policy standpoint than it is in a laboratory setting.
 

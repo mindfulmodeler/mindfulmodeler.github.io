@@ -18,9 +18,7 @@ As a lifelong student and future-focused thinker, my mission is to continuously 
 
 My personal academic research has long focused on the issue of water-related illnesses, which are some of the biggest drivers of mortality and morbidity around the world even though they are widely preventable with modern knowledge and technology. Many pressing issues seem to share this theme: the problem has an apparently straightforward solution and yet we cannot seem to achieve it. I enjoy facilitating this discussion by helping friends and clients to realize potential roadblocks, opportunties, and scenarios they perhaps had not considered before. 
 
-If you are interested in working on a project together, feel free to contact me or take a look at my <a href="/cv">online resume</a> for a list of my professional qualifications.
+<!-- If you are interested in working on a project together, feel free to contact me or take a look at my <a href="/cv">online resume</a> for a list of my professional qualifications.
 
 
-
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+ [1]: {{ site.url }}{{ site.baseurl }}/documentation/ -->

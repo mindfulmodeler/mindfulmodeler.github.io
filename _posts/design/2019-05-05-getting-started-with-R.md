@@ -4,7 +4,6 @@ sidebar: left
 subheadline: Introduction to R programming.
 title:  "A Python Lover's Guide for Getting Started with R"
 # teaser: "A python lover's guide for getting started with R."
-# breadcrumb: true
 tags:
     - R for policy analysis
     - statistics for data science
@@ -16,9 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/R-intro.webp"
-# image:
-#     title: /R-intro.webp
 show_meta: true
+comments: true
 ---
 
 <div class="panel radius" markdown="1">

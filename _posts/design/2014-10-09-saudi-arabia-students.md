@@ -16,6 +16,7 @@ categories:
 image:
     thumb: /gannonuniversity.JPG
     title: /gannonuniversity.JPG
+comments: true
 ---
 
 __Feature Story: Gannon Knight Newspaper__

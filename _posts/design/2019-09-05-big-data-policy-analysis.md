@@ -4,7 +4,6 @@ sidebar: left
 subheadline: Big data in policy analysis
 title:  "The Politicization of Big Data"
 teaser: "How subjective preferences and subtle politics influences the success of a big data analysis project."
-# breadcrumb: true
 tags:
     - big data problems
     - policy analysis
@@ -18,6 +17,7 @@ image:
     title: /divide2.webp
 header: no
 show_meta: true
+comments: true
 ---
 Innovative new tech opportunities such as machine learning, big data analysis, and cloud computing are already disrupting a wide variety of global issues. To be a part of the cool shift towards advanced computing though, you'll have to master a lot of old-school things like [classical statistics](/hypothesis-testing/) and [probability distributions](/probability-distributions/), which is why I've included several tutorials in this blog. But you'll find no examples of coin flips and dice-rolling here, because you can find that in plenty of other textbooks and websites. Instead, my focus is on the messy and uncertain situations that surround real-world policymakers. While the political decisionmakers who craft our environmental regulations, disaster budgets, and health insurance policies certainly rely on mathematical and statistical information, there is (hopefully) more to their decision making than measuring and coin-flipping.
 
@@ -48,7 +48,6 @@ The standard scientific model assumes that if there is not a consensus about som
 
 Therefore, to the scientifically-inclined, the only excuse for a lack of policy action can be if there is uncertainty around what the best course of action is. However, the politically-minded are well aware that supposing there is only *one* way to define the "best" option is far removed from reality.
 
-
 ![science-policy interface]({{site.baseurl}}/images/climate-change-science-v-politics-cartoon.jpg)
 
 ## Data, data everywhere
@@ -62,8 +61,6 @@ The problem with having endless data is that there is now *more* and *different*
 (*[Kitzmiller v. Dover Area School District](https://berkleycenter.georgetown.edu/cases/kitzmiller-v-dover-area-school-district)*)
 
 These questions seem to lie squarely in the domain of scientific study, yet because of their political or social ramifications they become highly contested. Each side argues that their opponent is using a flawed techniques, definitions, or datasets in order to generate favorable results. In such highly-charged environments, big data analysts must be careful and transparent in their modeling choices and assumptions.
-
-
 
 ## What do we mean by "Big Data"?
 The term "Big Data" is relatively new but increasingly becoming an everyday term. It encompasses the idea that many of today's datasets do not fit comfortably on a single disk, let alone on main memory. A common definition of Big Data is based on multiple "V's" that each denote a characteristic of big data: **variety**, **velocity** and **volume**.

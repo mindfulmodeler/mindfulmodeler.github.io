@@ -29,23 +29,23 @@
   {% if category == NULL and tag == NULL %}
 
     {% for snip in site.snips limit:include.entries offset:include.offset %}
-      <li><a href="{{ site.url }}{{ site.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
+      <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
     {% endfor %}
-      <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
+      <li class="text-right"><a href="{{ snip.url }}{{ snip.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
 
 
   {% elsif category %}
 
-    {% for snip in site.categories.[category] limit:include.entries offset:include.offset %}
-      <li><a href="{{ site.url }}{{ site.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
+    {% for snip in snip.categories.[category] limit:include.entries offset:include.offset %}
+      <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
     {% endfor %}
-      <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
+      <li class="text-right"><a href="{{ snip.url }}{{ snip.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
 
 
   {% elsif tag %}
 
-    {% for snip in site.tags.[tag] limit:include.entries %}
-      <li><a href="{{ site.url }}{{ site.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
+    {% for snip in snip.tags.[tag] limit:include.entries %}
+      <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
     {% endfor %}
 
   {% endif %}

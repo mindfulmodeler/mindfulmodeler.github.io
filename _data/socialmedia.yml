@@ -13,11 +13,6 @@
   class: icon-twitter
   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
-# - name: Mixcloud
-#   url: http://www.mixcloud.com/phlow/
-#   class: icon-cloud
-#   title: "Mixe, was sonst?"
-
 - name: Phlow YouTube Google+
   url: https://plus.google.com/u/0/+Phlow
   class: icon-googleplus

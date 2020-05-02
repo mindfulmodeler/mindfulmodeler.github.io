@@ -16,13 +16,8 @@ categories:
     - policy
 header: 
     image_fullwidth: "/ebola.JPG"
-
-# header:
-#     image: ebola.JPG
-#     pattern: pattern_concrete.jpg
-#     caption: This is a caption for the header image with link
-#     caption_url: https://unsplash.com/
 show_meta: true
+comments: true
 ---
 __A B S T R A C T__
 
@@ -32,7 +27,7 @@ Click here to view full paper: [The Governance of Epidemic Responses in Conflict
 
 
 
-<!-- 
-## Other Modeling Posts
+ 
+## Other Writing Samples
 {: .t60 }
-{% include list-posts tag='modeling' %} -->
+{% include list-posts tag='writing sample' %} 
