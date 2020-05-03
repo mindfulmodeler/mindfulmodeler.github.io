@@ -9,22 +9,35 @@ header:
 permalink: "/python3/"
 
 widget1:
-  title: "Moving Window Tutorial"
-  url: '/tutorial/'
-  image: '/modeling/NTD-system-dynamics/'
-  text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
+  title: "Rolling Window Function"
+  url: '/snips/2020-05-02-rolling-window/'
+  image: '/lmoments.png'
+  text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
 widget2:
-  title: "Django Foreign Key Mapping"
-  url: '/tutorial/'
-  text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-  image: '/modeling/NTD-system-dynamics/'
-widget3:
-  title: "Calculating L-Moments"
-  url: '/tutorial/'
-  image: '/modeling/NTD-system-dynamics/'
-  text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
+  title: "Advanced Plotting in Seaborn"
+  url: '/snips/seaborn-plotting/'
+  text: 'Python example for creating overlapping histograms.'
+  image: '/hists_title.png'
+# widget3:
+#   title: "Calculating L-Moments"
+#   url: '/tutorial/'
+#   image: '/modeling/NTD-system-dynamics/'
+#   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 ---
-Content coming soon.
+
+<div class="row t60">
+	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
+		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% endif %}
+
+	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
+		{% include _frontpage-widget.html widget=page.widget2 %}
+	{% endif %}
+
+	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
+		{% include _frontpage-widget.html widget=page.widget3 %}
+    {% endif %}   
+
 
 <!-- 
 ![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
@@ -57,18 +70,5 @@ Random paragraph here. Random paragraph here. Random paragraph here. Random para
 
 * Get rid of Backstretch.js and solve it with pure CSS
 * [Custom Scrollbar](https://css-tricks.com/custom-scrollbars-in-webkit/)
-* Layout/Template for category-archives
+* Layout/Template for category-archives -->
  
-<div class="row t60">
-	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
-
-	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
-
-	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
-    {% endif %}  
-</div> -->

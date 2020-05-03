@@ -11,13 +11,13 @@ permalink: "/js/"
 widget1:
   title: "Moving Window Tutorial"
   url: '/tutorial/'
-  image: http://localhost:4000/home/images/water-well-collection.webp
+  image: /images/movingwindow2.png
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 widget2:
   title: "Django Foreign Key Mapping"
   url: '/tutorial/'
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-  image: http://localhost:4000/home/images/ascaris_sfd.webp
+  image: images/movingwindow2.png
 widget3:
   title: "Calculating L-Moments"
   url: '/tutorial/'
@@ -28,11 +28,11 @@ widget3:
 Content coming soon.
 
 
-<!-- ## JavaScript Topics -->
+<!-- ## JavaScript Topics 
 {% for snip in site.snips %}
    <h2>{{ snip.title }} - {{ snip.teaser }}</h2>
    <li><a href="{{ snip.url }}{{ snip.baseurl }}{{ snip.url }}">{% if snip.subheadline %}{{ snip.subheadline }} &middot; {% endif %}<strong>{{ snip.title }}</strong></a></li>
-{% endfor %}
+{% endfor %} -->
 
 
 

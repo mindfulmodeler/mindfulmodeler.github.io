@@ -98,9 +98,9 @@ In this example, we'll use Salabim to simulate women walking to a public well in
 
 ### Simulation setup
 We'll create the following processes:
-- The <span style="color:violet">**person generator**</span> creates the women, with a uniform inter arrival time.
-- The <span style="color:violet">**women**</span> who visit the well. They wait in a queue and are served in a first-in, first out order.
-- The <span style="color:violet">**water well**</span> collection point, which we'll model as a *resource* in Salabim.
+- The <span style="color:hotpink">**person generator**</span> creates the women, with a uniform inter arrival time.
+- The <span style="color:hotpink">**women**</span> who visit the well. They wait in a queue and are served in a first-in, first out order.
+- The <span style="color:hotpink">**water well**</span> collection point, which we'll model as a *resource* in Salabim.
   - Resources have a limited capacity, just like our water collection point. They are useful for simulation because they can be claimed by components and released later, which is the case here because not every woman who arrives can fill her bucket all at once. Instead, they must form a queue.
 
 To make things a little more interesting, we'll also include two environmental features:
