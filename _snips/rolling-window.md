@@ -1,9 +1,8 @@
 ---
-layout: page
-sidebar: left
+layout: page-fullwidth
+breadcrumb: true
 header:
-    image: '/lmoments.png'
-    background-color:  "white"
+    image_fullwidth: '/lmoments.png'
 title: Moving Window Function
 date: 2020-05-02
 teaser: An example moving or rolling window function that can be used for statistical smoothing operations.

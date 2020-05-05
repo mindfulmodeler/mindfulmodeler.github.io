@@ -1,6 +1,5 @@
 ---
-layout: page
-sidebar: left
+layout: page-fullwidth
 subheadline: Overlapping histograms
 title:  "Advanced Plotting in Seaborn"
 teaser: "Overlapping histograms"
@@ -11,8 +10,7 @@ tags:
 categories:
     - code help
 header:
-    image: '/hists_title.png'
-    background-color:  "white"
+    image_fullwidth: '/hists_title.png'
 ---
 
 {% highlight ruby %}

@@ -1,6 +1,6 @@
 ---
-layout: page
-sidebar: left
+layout: page-fullwidth
+breadcrumb: true
 subheadline: Distribution Fitting with PyStan
 title:  "Distribution Fitting with PyStan"
 teaser: "Applying the Stan python package for distribution fitting"
@@ -12,8 +12,7 @@ tags:
 categories:
     - code help
 header:
-    image: '/stan_title.png'
-    background-color:  "white"
+    image_fullwidth: '/stan_title.png'
 ---
 With the pystan package, you can either import a .stan file or you can define your stan model directly in the script. The three mandatory parts of the stan model definition are: (1) data; (2) parameters; and (3) model. 
 

@@ -1,16 +1,17 @@
 ---
-layout: page
+layout: page-fullwidth
+breadcrumb: true
 format: blog-index
 title: "python3"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some ideas and features related to Python programming."
 header:
-   image_fullwidth: "/header_roadmap_3.jpg"
+   image_fullwidth: "/unsplasB.jpg"
 permalink: "/python3/"
 
 widget1:
   title: "Rolling Window Function"
-  url: '/snips/2020-05-02-rolling-window/'
+  url: '/snips/rolling-window/'
   image: '/lmoments.png'
   text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
 widget2:
@@ -18,11 +19,11 @@ widget2:
   url: '/snips/seaborn-plotting/'
   text: 'Python example for creating overlapping histograms.'
   image: '/hists_title.png'
-# widget3:
-#   title: "Calculating L-Moments"
-#   url: '/tutorial/'
-#   image: '/modeling/NTD-system-dynamics/'
-#   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
+widget3:
+  title: "Distribution Fitting with PyStan"
+  url: '/snips/distribution-fitting-stan/'
+  image: '/pystan_code.png'
+  text: 'Applying the Stan python package for distribution fitting'
 ---
 
 <div class="row t60">
