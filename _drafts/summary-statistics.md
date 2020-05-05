@@ -39,7 +39,7 @@ The **population** is the entire set of things that you're making a statement ab
 ### Transformations
 - some believe that by transforming data, you're tweaking it to match your own preconceived notions. But transformation can be useful to get a dataset to yield symmetry and linearity.  
 
-> "One unit of measurement is no more valid a priori than any other. For example, the negative logarithm of hydrogen ion concentration, pH, is as valid a measurement system as hydrogen ion concentration itself. Transformations like the square root of depth to water at a well, or cube root of precipitation volume, should bear no more stigma than does pH. These measurement scales may be more appropriate for data analysis than are the original units." ~USGS
+> "One unit of measurement is no more valid *a priori* than any other. For example, the negative logarithm of hydrogen ion concentration, pH, is as valid a measurement system as hydrogen ion concentration itself. Transformations like the square root of depth to water at a well, or cube root of precipitation volume, should bear no more stigma than does pH. These measurement scales may be more appropriate for data analysis than are the original units." ~USGS
 
 - if you want to make a symmetric distribution out of an asymmetric one, you can transform or re-express values in different units. Different units can change the distances between how the values look when plotted.
 - The logarithm is a commonly used transformation. "Logs of water discharge, hydraulic conductivity, or concentration are often taken before statistical analyses are performed."
