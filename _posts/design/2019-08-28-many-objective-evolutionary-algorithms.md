@@ -47,7 +47,7 @@ The aim of multiobjective optimization is to find the approximate Pareto Front, 
 
 The mathematics behind multiobjective optimization can be complex, so a variety of new and increasingly innovative algorithms have been developed to handle the computations. Some of the most promising computational strategies in recent years are a part of the family of **evolutionary algorithms**, which mimic the processes of Darwinian evolution in order to find high-performing solution sets. Evolutionary Algorithms are highly promising for helping to solve MOPs because they are population-based search (optimization) methods that don’t rely on assumptions like differentiability. By mimicking biological processes, genetic algorithms provide an efficient method for converging towards diverse and high-performing solution sets. For a deeper introduction into evolutionary algorithms, I recommend starting with [this video](https://youtu.be/1i8muvzZkPw).
 
-![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob2.jpg)
+![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob2.webp)
 
 # Why use Many-Objective Evolutionary Algorithms for robust policy search?
 Many-Objective Evolutionary Algorithms (MOEAs) are particularly useful in their ability to perform global optimization and discover high-performing policy options. Mimicking natural processes of evolution, MOEAs iteratively evaluate possible strategies across the many objectives until the best candidates are found. Using a MOEA is often preferred over classical optimization methods for the following reasons:
@@ -69,7 +69,7 @@ Traditional NSGAII was extended in 2005 by Kollat & Reed into **epsilon-NSGAII**
 Tools such as the [exploratory modeling workbench](https://github.com/quaquel/EMAworkbench) by Jan Kwakkel can incorporate a variety of search algorithms. Notably, epsilon-NSGAII is the default search algorithm used by ema workbench, which provides a relatively thorough and efficient use for beginner to intermediate applications.  
 
 <!-- <br>
-![multi objective optimization](../assets/img/optimiz.jpg){:.post-img-large}
+![multi objective optimization](../assets/img/optimiz.webp){:.post-img-large}
 <br> -->
 
 <!-- ![Search](../assets/img/search.png) -->

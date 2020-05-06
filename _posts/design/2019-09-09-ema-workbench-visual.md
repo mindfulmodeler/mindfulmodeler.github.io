@@ -14,7 +14,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/nl-water.jpg"
+    image_fullwidth: "/nl-water.webp"
 image:
     title: /rotav_OE_title.webp
 show_meta: true

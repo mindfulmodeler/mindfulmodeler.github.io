@@ -15,7 +15,7 @@ categories:
     - tutorial
 header:
     image: linear.webp
-    pattern: pattern_concrete.jpg
+    pattern: pattern_concrete.webp
     caption: Mapping with GeoPandas in Python
     caption_url: https://unsplash.com/
 show_meta: true
@@ -43,7 +43,7 @@ Linear Regression is commonly used when you have a set of input values and want 
 
 
 
-![Linear regression single]({{site.baseurl}}/images/linear_single.jpg)
+![Linear regression single]({{site.baseurl}}/images/linear_single.webp)
 
 
 

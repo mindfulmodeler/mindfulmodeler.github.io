@@ -37,4 +37,4 @@ references:  ""
 dengue fever is a mosquito-borne tropical disease caused by the dengue virus. Symptoms typically begin three to fourteen days after infection. This may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin rash.
 
 <br>
-![Aedes mosquito](/assets/img/aedes.jpg)
+![Aedes mosquito](/assets/img/aedes.webp)

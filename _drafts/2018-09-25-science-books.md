@@ -5,7 +5,7 @@ layout: books
 title: Recommended Reading List Math and Science Related
 permalink: /science-books/
 date: 2018-09-25
-img: #books.jpg
+img: #books.webp
 list_title: Math and Science Book Reviews
 categories: []
 ---

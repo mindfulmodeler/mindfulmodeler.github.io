@@ -6,7 +6,7 @@ title: "python3"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some ideas and features related to Python programming."
 header:
-   image_fullwidth: "/unsplasB.jpg"
+   image_fullwidth: "/unsplasB.webp"
 permalink: "/python3/"
 
 widget1:

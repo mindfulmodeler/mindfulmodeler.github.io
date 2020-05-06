@@ -15,7 +15,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/multi-linreg-uganda-maps2.jpg"
+    image_fullwidth: "/multi-linreg-uganda-maps2.webp"
 show_meta: true
 comments: true
 ---

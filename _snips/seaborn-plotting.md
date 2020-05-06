@@ -10,7 +10,7 @@ tags:
 categories:
     - code help
 header:
-    image_fullwidth: '/hists_title.png'
+    image_fullwidth: '/hists_title.webp'
 ---
 
 {% highlight ruby %}
@@ -40,4 +40,4 @@ fig.suptitle('Histograms of each month', size=16, y=1.04)
 fig.savefig(f'histograms.png')
 {% endhighlight %}
 
-![l-moment smoothing]({{site.baseurl}}/images/histograms.png)
+![l-moment smoothing]({{site.baseurl}}/images/histograms.webp)

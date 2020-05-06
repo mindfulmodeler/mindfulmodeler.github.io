@@ -5,7 +5,7 @@ title: "JavaScript"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some ideas and features related to JavaScript programming."
 header:
-   image_fullwidth: "/header_roadmap_3.jpg"
+   image_fullwidth: "/header_roadmap_3.webp"
 permalink: "/js/"
 
 widget1:

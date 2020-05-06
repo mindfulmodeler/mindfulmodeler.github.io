@@ -12,7 +12,7 @@ tags:
 categories:
     - code help
 header:
-    image_fullwidth: '/stan_title.png'
+    image_fullwidth: '/stan_title.webp'
 ---
 With the pystan package, you can either import a .stan file or you can define your stan model directly in the script. The three mandatory parts of the stan model definition are: (1) data; (2) parameters; and (3) model. 
 

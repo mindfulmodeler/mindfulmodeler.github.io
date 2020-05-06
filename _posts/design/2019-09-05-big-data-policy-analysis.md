@@ -48,7 +48,7 @@ The standard scientific model assumes that if there is not a consensus about som
 
 Therefore, to the scientifically-inclined, the only excuse for a lack of policy action can be if there is uncertainty around what the best course of action is. However, the politically-minded are well aware that supposing there is only *one* way to define the "best" option is far removed from reality.
 
-![science-policy interface]({{site.baseurl}}/images/climate-change-science-v-politics-cartoon.jpg)
+![science-policy interface]({{site.baseurl}}/images/climate-change-science-v-politics-cartoon.webp)
 
 ## Data, data everywhere
 We live in an age of data. "Datafication" refers to the increasing number of activities conducted in a semi-digital environment, where sensors, devices, and apps collect information about our activities. With these seemingly endless data streams being collected, the choice surrounding *which* data sets to use in *what way* are increasingly contested.
@@ -92,13 +92,13 @@ As an analyst working on policy-relevant concerns, it is important to consider t
 Hoppe, Robert. (1999). Policy analysis, science and politics: From 'speaking truth to power' to 'making sense together'. Science & Public Policy - SCI PUBLIC POLICY. 26. 201-210. 10.3152/147154399781782482.
 
 <!-- <br>
-![problems with big data](../assets/img/its_not_you.jpg){:.post-img-smaller}
+![problems with big data](../assets/img/its_not_you.webp){:.post-img-smaller}
 <div class ="post-img-caption">
 https://timoelliott.com/blog/cartoons/analytics-cartoons
 </div> -->
 
 <!-- <br>
-![using big data](../assets/img/cartoon-using-big-data.jpg){:.post-img-smallest}
+![using big data](../assets/img/cartoon-using-big-data.webp){:.post-img-smallest}
 <div class ="post-img-caption">
 https://timoelliott.com/blog/cartoons/analytics-cartoons
 </div>

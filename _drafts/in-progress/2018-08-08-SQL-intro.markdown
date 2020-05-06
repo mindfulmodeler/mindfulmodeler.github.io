@@ -5,7 +5,7 @@ layout: post
 title: "SQL for beginners"
 date: 2018-08-08
 description: Introduction to SQL # Add post description (optional)
-img: db.jpg  # Add image post (optional)
+img: db.webp  # Add image post (optional)
 ---
 # Basic concepts
 * A **database management system (DBMS)** is a collection of programs that enables users to create and maintain a database. The DBMS is a general-purpose software system for implementing and maintaining a computerized database. The database and software together form a database system.

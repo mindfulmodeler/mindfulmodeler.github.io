@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "/unsplash_water3.jpg"
+  image_fullwidth: "/unsplash_water3.webp"
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'
@@ -35,7 +35,7 @@ widget5:
 widget6:
   title: "Poverty Rates in Uganda - Multivariate Linear Regression"
   url: '/tutorial/multivariate-linear-regression-uganda/'
-  image: '/multi-linreg-uganda-maps.jpg'
+  image: '/multi-linreg-uganda-maps.webp'
   text: 'Applying single and multivariate linear regression using python to a global policy problem.'
 #
 # Use the call for action to show a button on the frontpage
@@ -59,7 +59,7 @@ permalink: /index.html
 homepage: true
 ---
 
-<!-- ![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.jpg)
+<!-- ![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.webp)
  -->
 <!-- Exploratory Modeling Tips -->
 

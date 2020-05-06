@@ -14,7 +14,7 @@ tags:
 categories:
     - modeling
 header:
-    image_fullwidth: "/nl.jpg" #"/ijssel.webp"
+    image_fullwidth: "/nl.webp" #"/ijssel.webp"
 show_meta: true
 comments: true
 ---

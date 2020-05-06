@@ -5,7 +5,7 @@ title: "Shannon M. Gross"
 subheadline: "About Me"
 teaser: "Making models to make a difference"
 header:
-   image_fullwidth: "/unsplash_water5.jpg"
+   image_fullwidth: "/unsplash_water5.webp"
 permalink: "/about/"
 ---
 <!-- <p>According to the World Health Organization, <b>public health</b> is the "science and art

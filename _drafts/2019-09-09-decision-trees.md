@@ -6,7 +6,7 @@ title: Decision Tress notes
 date: 2019-09-08
 description:
 fig-cation:
-img: #books.jpg
+img: #books.webp
 tags: []
 ---
 - TOC

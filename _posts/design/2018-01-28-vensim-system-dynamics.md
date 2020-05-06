@@ -15,7 +15,7 @@ tags:
 categories:
     - modeling
 header:
-    image_fullwidth: "/SD.jpg"
+    image_fullwidth: "/SD.webp"
 show_meta: true
 comments: true
 ---

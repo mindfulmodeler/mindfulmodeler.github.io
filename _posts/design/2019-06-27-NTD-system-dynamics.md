@@ -87,7 +87,7 @@ If the treatment switch is turned on (for any of the AgeGroups) then the infecte
 #### How sensitive is the number of infections to “soil contact rate?”
 The variable “soil contact rate” was an educated estimate. This is a highly understudied academic domain with very few studies that have taken measurements taken to gauge soil contact. Doing so would be extremely time and resource intensive, because researchers would essentially need to understand how much “new” dirt individuals come into contact with each day, from activities ranging from eating an unwashed vegetable to petting a dusty animal. Some epidemiological studies estimate contact rates of 0.02, which was the basis for our soil contact estimates. We assumed low values for infants -who are likely to be held on the hip by the mother- and also low for adults who are cleaner. Higher values used for children to reflect high infection rates.
 
-![sensitivity analysis]({{site.baseurl}}/images/ascaris_SA.jpg)
+![sensitivity analysis]({{site.baseurl}}/images/ascaris_SA.webp)
 Note: For readability, figure shows sensitivity for Nigerian Pre-School Aged Children only.
 
 ## Recommendations & Conclusions:

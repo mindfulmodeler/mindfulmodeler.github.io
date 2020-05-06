@@ -15,7 +15,7 @@ tags:
 categories:
     - policy
 header: 
-    image_fullwidth: "/ebola.JPG"
+    image_fullwidth: "/ebola.webp"
 show_meta: true
 comments: true
 ---

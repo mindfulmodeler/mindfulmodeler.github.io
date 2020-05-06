@@ -38,7 +38,7 @@ The standard scientific model assumes that if there is not a consensus about som
 Therefore, to the scientifically-inclined, the only excuse for a lack of policy action can be if there is uncertainty around what the best course of action is. However, the politically-minded are well aware that supposing there is only *one* way to define the "best" option is far removed from reality.
 
 <br>
-![science-policy interface](../assets/img/climate-change-science-v-politics-cartoon.jpg){:.post-img-smaller}
+![science-policy interface](../assets/img/climate-change-science-v-politics-cartoon.webp){:.post-img-smaller}
 <!-- <div class ="post-img-caption">
 https://oxfamblogs.org/fp2p/how-can-politics-ever-serve-future-generations-on-climate-change-but-lots-of-other-stuff-too/
 </div>-->
