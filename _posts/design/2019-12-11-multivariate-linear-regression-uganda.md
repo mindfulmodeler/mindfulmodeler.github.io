@@ -98,7 +98,7 @@ df_merged.head()
 {% endhighlight %}
 
 Which produces the following geodataframe:
-![merged shapefile geodataframe]({{site.baseurl}}/images/mvlg-merged-gdf-head.png)
+![merged shapefile geodataframe]({{site.baseurl}}/images/mvlg-merged-gdf-head.webp)
 
 Nice! The information has been consolidated into a single geodataframe. But - we have many columns that we don't need, and we'd like to rename the columns to keep so they are a little more reader-friendly.
 
@@ -121,7 +121,7 @@ df_subset = df_renamed[["SubcountyName",  "HHs_Total", "SubcountyPopulation", "P
 {% endhighlight %}
 
 This produces the smaller, easier-to-read table:
-![merged cleaned subset geodataframe]({{site.baseurl}}/images/mvlg-merged-cleaned-gdf-head.png)
+![merged cleaned subset geodataframe]({{site.baseurl}}/images/mvlg-merged-cleaned-gdf-head.webp)
 
 ## Visualizing the shapefile information
 You can already get a simple idea of your geodataframe simply by typing in `df_subset.plot()`. However, I'm going to walk through how to get a nicer figure - one that is functional and more reusable.
@@ -135,7 +135,7 @@ def create_feature_map(gdf, feature_name, feature_min=0, feature_max=100, color_
     feature_name: column of interest to be visualized
     feature_min, feature_max: min/max ranges of feature for color-coding
     color_style: What color style to use?
-    save: pass True to save as .png file (default: False)
+    save: pass True to save as .webp file (default: False)
     """
 
     fig, ax = plt.subplots(1, figsize=(10, 6))
@@ -156,7 +156,7 @@ def create_feature_map(gdf, feature_name, feature_min=0, feature_max=100, color_
     cbar = fig.colorbar(feature_colorbar)
 
     if save == True:
-        fig.savefig("Map_{}.png".format(feature_name), dpi=300)
+        fig.savefig("Map_{}.webp".format(feature_name), dpi=300)
 {% endhighlight %}
 
 
@@ -166,7 +166,7 @@ create_feature_map(df_subset, feature_name="PovertyRate%", color_style="Greys")
 {% endhighlight %}
 
 Produces the following visualization of Uganda's subcounties:
-![map ugandan poverty rate python]({{site.baseurl}}/images/Map_PovertyRate.png)
+![map ugandan poverty rate python]({{site.baseurl}}/images/Map_PovertyRate.webp)
 
 And by passing in a different string to `color_style=`, you can easily test different color maps (see [here](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html) for a full list of available schemes).
 
@@ -176,7 +176,7 @@ And this line of code produces a map showing household access to improved sanita
 create_feature_map(df_subset, feature_name="%HHs_wSanAccess", color_style="Oranges")
 {% endhighlight %}
 
-![map ugandan improved sanitation access]({{site.baseurl}}/images/Map_HHs_wSanAccess.png)
+![map ugandan improved sanitation access]({{site.baseurl}}/images/Map_HHs_wSanAccess.webp)
 
 The northeastern region of Uganda distinctly jumps out as being the poorest. We can also tell that this region is least likely to have access to improved sanitation, as mapping both variables produces opposing images of one another. This matches with our intuition, since we'd expect that the poorest households also have the least accessibility to improved sanitation.
 
@@ -199,7 +199,7 @@ Fortunately, the data we're working with contains no missing values, and we can 
 sns.pairplot(df_subset[["HHs_woSoap", "HHs_OpenWaterSource", "%HHs_wSanAccess", "PovertyRate%"]])
 {% endhighlight %}
 
-![seaborn pairplot visual]({{site.baseurl}}/images/mvlg-pairplot.png)
+![seaborn pairplot visual]({{site.baseurl}}/images/mvlg-pairplot.webp)
 
 This type of plot is useful for quickly identifying if a linear relationship exists between the variables of interest. I often use the pairplot to get a holistic understanding of my data, then zoom in on particular relationships.
 
@@ -210,7 +210,7 @@ Histograms are one method for diving deeper into understanding a single variable
 sns.distplot(smaller_dataset['%HHs_wSanAccess'], bins=15, color="g").set_title('%HHs_wSanAccess', size=16)
 {% endhighlight %}
 
-![histogram household sanitation access]({{site.baseurl}}/images/mvlg-san-access-histogram.png)
+![histogram household sanitation access]({{site.baseurl}}/images/mvlg-san-access-histogram.webp)
 
 Another interesting variable to zoom in on is the GINI index. The GINI measures the degree of household income inequality in an area. For this dataset, a value of 0 indicates that there is no inequality and a value of 1 means that there is complete inequality. What values occur most frequently in our dataset?
 
@@ -218,7 +218,7 @@ Another interesting variable to zoom in on is the GINI index. The GINI measures 
 sns.distplot(smaller_dataset['GINI'], bins=15, color="g").set_title('GINI', size=16)
 {% endhighlight %}
 
-![histogram GINI index Uganda]({{site.baseurl}}/images/mvlg-gini-histogram.png)
+![histogram GINI index Uganda]({{site.baseurl}}/images/mvlg-gini-histogram.webp)
 
 It appears that the data are bisected, with some subcounties hovering around nearly complete equality (GINI = 0) and most of the remaining subcounties around a GINI inequality level of 0.3 - 0.4.
 
@@ -269,7 +269,7 @@ ax.set_ylabel('predicted')
 plt.show()
 {% endhighlight %}
 
-![multivariate regression prediction]({{site.baseurl}}/images/mvlg-step5.png)
+![multivariate regression prediction]({{site.baseurl}}/images/mvlg-step5.webp)
 
 Pretty good! From this plot, we can see that the outcome follows a linear trend, which means our model fit was appropriate. Using this easy visualization, we can quickly see that our predictions generally followed our actual measurements. Just like with single linear regression, we do not want to see curvature in this plot, since it may indicate that a linear model was an inappropriate fit or that a transformation is required.
 
@@ -295,7 +295,7 @@ It is important to keep in mind that if we remove one of the variables from cons
 sns.heatmap(smaller_dataset.corr(),annot=True, cmap='bwr').set_title('Correlation Heatmap', size=16)
 {% endhighlight %}
 
-![multivariate correlation](../assets/img/mvlg-correlation.png){:.post-img-smaller} -->
+![multivariate correlation](../assets/img/mvlg-correlation.webp){:.post-img-smaller} -->
 
 {% highlight ruby %}
 cor_df=smaller_dataset.corr(method='pearson')
@@ -310,7 +310,7 @@ plt.show()
 {% endhighlight %}
 
 Which produces the following:
-![multivariate regression multicollinearity]({{site.baseurl}}/images/mvlg-multicollinearity.png)
+![multivariate regression multicollinearity]({{site.baseurl}}/images/mvlg-multicollinearity.webp)
 
 When fitting a model, you may find that some of your explanatory variables in the regression are highly related to each other. Because of this, they do not provide unique/independent information. This **multicollinearity** occurs when you have several variables that are correlated with one another. This essentially leads to using the same variance more than once to explain changes in y. As a whole, multivariate regression can be useful even when the features are collinear, since it gives you an idea of how the whole group of features predicts the outcome of interest. For any individual feature, however, the results may not be valid.
 

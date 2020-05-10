@@ -42,7 +42,7 @@ Intervention strategies against the parasite typically focus on improving water,
 
 ## Conceptual model
 
-![ascariasis feedback loop]({{site.baseurl}}/images/ascaris.png)
+![ascariasis feedback loop]({{site.baseurl}}/images/ascaris.webp)
 
 The main feedback loop in this model highlights the significance of having an infectious soil reservoir, which contributes to disease transmission unless interrupted (shown in blue below). Expanded versions of this model should incorporate feedback effects of GDP and improved sanitation (shown in grey).
 
@@ -66,17 +66,17 @@ Flow loops occur inside the Infection sub-model because Nigeria is endemic for A
 
 ## Base case behavior
 Fig 1a. Nigeria Status Quo (No intervention)
-![Status Quo Nigeria]({{site.baseurl}}/images/ascaris_nigeria_base.png)
+![Status Quo Nigeria]({{site.baseurl}}/images/ascaris_nigeria_base.webp)
 
 Fig 1b. India Status Quo (No intervention)
-![Status Quo India]({{site.baseurl}}/images/ascaris_india_base.png)
+![Status Quo India]({{site.baseurl}}/images/ascaris_india_base.webp)
 
 ## Explanation of Infection Sub-model
 In areas that are endemic for a. lumbricoides, most people are essentially “living with a mild infection” because they are constantly being re-infected and/or accumulating parasites. Therefore, the bulk of the infected population is contained in this “recurring infection” loop.
 
 A very small portion of the population become “heavily infected” and may die if not treated. Currently, this sub-model assumes a constant fatality rate (which is higher in children). However, in future models we would like to tie the fatality rate to the mean worm burden, since fatality is related to the intensity of the infection.
 
-![ascaris lumbricoides infection]({{site.baseurl}}/images/ascaris_inf_sub.png)
+![ascaris lumbricoides infection]({{site.baseurl}}/images/ascaris_inf_sub.webp)
 
 The lifespan of an adult parasite in a host is 1-2 years. Therefore, if a person is moved out of an infectious environment they will pass the worm from their body in that amount of time. However, in endemic areas the soil is so infected that a person will probably acquire a new parasite in that amount of time, rather than be able to recover naturally. Therefore, we assume that unless sanitation access is >50%, the population will be stuck in the “recurring infection” loop. If new latrines are constructed such that the majority of them have sanitation access, then people are able to more to the “Recovered” stock.
 
@@ -95,7 +95,7 @@ Note: For readability, figure shows sensitivity for Nigerian Pre-School Aged Chi
 
 Current treatment policy, India: Entire population treated, 1x per year for 6 years. N.B. Even when adults are included in the MDA program, “bounce back” will occur within a decade.
 
-![ascaris current policy]({{site.baseurl}}/images/ascaris_bounce_back.png)
+![ascaris current policy]({{site.baseurl}}/images/ascaris_bounce_back.webp)
 
 * Constructing sanitation facilities requires more upfront cost. However, improving sanitation infrastructure accomplishes 3 things:
   * Avoids having to treat the population indefinitely with Albendazole.

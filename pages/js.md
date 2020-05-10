@@ -11,13 +11,13 @@ permalink: "/js/"
 widget1:
   title: "Moving Window Tutorial"
   url: '/tutorial/'
-  image: /images/movingwindow2.png
+  image: /images/movingwindow2.webp
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 widget2:
   title: "Django Foreign Key Mapping"
   url: '/tutorial/'
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-  image: images/movingwindow2.png
+  image: images/movingwindow2.webp
 widget3:
   title: "Calculating L-Moments"
   url: '/tutorial/'

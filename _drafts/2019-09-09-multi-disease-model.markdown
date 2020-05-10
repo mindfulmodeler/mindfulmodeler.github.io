@@ -36,7 +36,7 @@ Summary of XLRM Framework
 
 The model includes nine policy levers that are under control of public health policymakers; seven deeply uncertain exogenous factors that affect the system; and five conflicting objectives that ideally should all be minimized. The system diagram is outlined in the figure below.
 
-![multiple disease model system](../assets/img/multi-disease-model-xlrm.png)
+![multiple disease model system](../assets/img/multi-disease-model-xlrm.webp)
 
 While the ability of these policy levers to reduce the burden of the infectious pathogens mentioned here are widely agreed upon, the quantification of these relationships is deeply uncertain. The next section provides a brief discussion about data availability for the relationships described.
 

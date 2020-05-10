@@ -16,7 +16,7 @@ tags:
     - policy analysis
     - article
 image:
-    title: /isil.png
+    title: /isil.webp
     # caption: Unsplash.com
     # caption_url: http://unsplash.com
 author: Shannon M. Gross

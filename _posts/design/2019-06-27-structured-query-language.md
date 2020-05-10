@@ -15,7 +15,7 @@ categories:
 header:
     image_fullwidth: "/db.webp"
 image:
-    thumb: /database-icon1.png
+    thumb: /database-icon1.webp
 show_meta: true
 comments: true
 ---
@@ -32,7 +32,7 @@ A database is an organized collection of data that can be queried to retrieve in
 ## When to use (or not use) a DBMS
 A **database management system (DBMS)** is a collection of programs that enables users to create and maintain a database. The database and software together form a database system. Popular DBMS's include:
 
-![popular database management systems]({{site.baseurl}}/images/sql_dbms.png)
+![popular database management systems]({{site.baseurl}}/images/sql_dbms.webp)
 
 What advantages does using a DBMS offer?
 * A DBMS gives you insulation between your programs and your data.
@@ -50,7 +50,7 @@ Therefore, a DBMS is most useful when you have a variety of data that will be ac
 
 To get an idea of these strengths and weaknesses, let's practice on a small database using SQLite3. If you already have python installed, then you likely already have SQLite3 available. You can check by typing in `sqlite3` into your command prompt. Optionally, you can follow this by the name of the database you wish to work on/create.
 
-![sqlite3 command prompt]({{site.baseurl}}/images/sqlite3_command_prompt.png)
+![sqlite3 command prompt]({{site.baseurl}}/images/sqlite3_command_prompt.webp)
 
 (Note: this article is written from a Windows perspective, some commands may vary by OS).
 
@@ -113,11 +113,11 @@ FROM patient;
 {% endhighlight %}
 
 
-![sqlite3 basic table]({{site.baseurl}}/images/sqlite3_create_table.png)
+![sqlite3 basic table]({{site.baseurl}}/images/sqlite3_create_table.webp)
 
 To make this output a little more user-friendly, we can add `.mode column` and `.headers ON` before the select statement.
 
-![sqlite3 format output]({{site.baseurl}}/images/sqlite3_create_table_columns.png)
+![sqlite3 format output]({{site.baseurl}}/images/sqlite3_create_table_columns.webp)
 
 Much easier to read!
 
@@ -130,7 +130,7 @@ SET got_flu_shot=1
 WHERE firstname = 'Karen';
 {% endhighlight %}
 
-![sqlite3 update statement]({{site.baseurl}}/images/sqlite3_update_table.png)
+![sqlite3 update statement]({{site.baseurl}}/images/sqlite3_update_table.webp)
 
 
 > **Keep in mind**
@@ -146,7 +146,7 @@ We can keep inserting (and updating) our table information in this manner. Howev
 {% endhighlight %}
 
 Let's check that the patient data was successfully added to our data table:
-![sqlite3 csv insert]({{site.baseurl}}/images/sqlite3_csv_insert.png)
+![sqlite3 csv insert]({{site.baseurl}}/images/sqlite3_csv_insert.webp)
 
 ### Saving table to a file
 Alternatively, we may wish to save the full table (or other query output) to a file. We can easily do this using `.output`, followed by the name of the file we wish to create. The result of any query between `.output` and `.exit` will be saved to the text file.
@@ -159,7 +159,7 @@ The `.exit` statement takes us out of SQLite3 and into the regular command promp
 
 
 Let's check that the patient data was successfully added to our data table:
-![command line read text file]({{site.baseurl}}/images/sqlite3_cli_read.png)
+![command line read text file]({{site.baseurl}}/images/sqlite3_cli_read.webp)
 
 ## More Complex Operations & Join Types
 Database management systems frequently involve more than one table, therefore more complex operations like [joins](https://www.sqlitetutorial.net/sqlite-join/) are necessary. Keep in mind that there are different possible types of joins for combining columns across related tables.
@@ -190,7 +190,7 @@ INSERT INTO visits values(106, “7-1-2019”, 4, “fever”);
 .import visit_data.csv visits
 {% endhighlight %}
 
-![SQL populate table]({{site.baseurl}}/images/sqlite3_populate_table.png)
+![SQL populate table]({{site.baseurl}}/images/sqlite3_populate_table.webp)
 
 Again, you can use the example csv files from [my github](https://github.com/shannongross/code_support/tree/master/health-database) to practice with.
 
@@ -202,7 +202,7 @@ FROM patients natural join visits
 WHERE patient_id = 10;
 {% endhighlight %}
 
-![SQL natural join]({{site.baseurl}}/images/sqlite3_natural_join.png)
+![SQL natural join]({{site.baseurl}}/images/sqlite3_natural_join.webp)
 
 Natural join applies when you have the same column names in both tables, so bear in mind that it has some redundancy.
 
@@ -215,7 +215,7 @@ SELECT DISTINCT patient_id
 FROM visits;
 {% endhighlight %}
 
-![SQL select distinct]({{site.baseurl}}/images/sqlite3_select_distinct.png)
+![SQL select distinct]({{site.baseurl}}/images/sqlite3_select_distinct.webp)
 
 ### Sorting
 {% highlight ruby %}
@@ -224,7 +224,7 @@ FROM visits
 ORDER BY symptom ASC;
 {% endhighlight %}
 
-![SQL sorting]({{site.baseurl}}/images/sqlite3_sort_asc.png)
+![SQL sorting]({{site.baseurl}}/images/sqlite3_sort_asc.webp)
 
 <!--
 ### 1. Cross Join (aka Cartesian Product)

@@ -50,13 +50,15 @@ model {
 """
 {% endhighlight %}
 
+One thing to keep in mind is that the variables defined within the *model* block of code are local. That is, the *data* and *parameter* blocks don't know about them. 
+
 After defining the model, the next step is to compile the model. Compiling will take a few minutes - although it is also possible to pickle the model in order to avoid repeat compiling.  
 
 {% highlight ruby %}
 sm = pystan.StanModel(model_code=stan_model)
 {% endhighlight %}
 
-Finally, we can specify our parameters, including the number of iterations to cycle though. 
+Finally, we can specify our parameters, including the number of iterations to cycle though. Usually, at least three independent chains are run. 
 
 {% highlight ruby %}
 #set up parameters
@@ -72,5 +74,13 @@ fit = sm.sampling(data=Dat, n_jobs=1, iter=ITER, chains=NUMCHAIN)
 {% endhighlight %}
 
 
+## Interpreting the results
+For anyone new to Stan or Bayesian statistics, understanding how well the model fit the data is not a trivial task. There are some indicators that are automatically calculated by Stan in the summary statistics, which can be viewed with `print(fit)`. 
+1. The R-hat statistic (**R^hat**)
+    - GOOD: when Rhat is <1.1 (if not, consider longer runs)
+2. The effective sample size (**n_eff**)
+    - GOOD: larger n_eff values, (at least 100 usually)
 
-<!-- ![l-moment smoothing]({{site.baseurl}}/images/histograms.png) -->
+If the fit appears to be poor because of these indicators, it is a sign that different priors should be chosen or that a greater number of samples is needed. 
+
+<!-- ![l-moment smoothing]({{site.baseurl}}/images/histograms.webp) -->

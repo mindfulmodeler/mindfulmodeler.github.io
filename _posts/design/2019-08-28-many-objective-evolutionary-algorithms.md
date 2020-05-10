@@ -72,7 +72,7 @@ Tools such as the [exploratory modeling workbench](https://github.com/quaquel/EM
 ![multi objective optimization](../assets/img/optimiz.webp){:.post-img-large}
 <br> -->
 
-<!-- ![Search](../assets/img/search.png) -->
+<!-- ![Search](../assets/img/search.webp) -->
 
 ## Concluding Remarks
 The popularity of applying many objective evolutionary algorithms to complex real-world issues has risen dramatically over the last several years. The ability of MOEAs to efficiently approximate a pareto front is useful for helping policymakers make sense of important tradeoffs in the objective space. This is especially the case when the presence of multiple, conflicting objectives means that the analyst cannot present a single "best" solution.

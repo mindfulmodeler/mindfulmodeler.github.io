@@ -4,7 +4,7 @@ breadcrumb: true
 header:
     image_fullwidth: '/lmoments.webp'
 title: Moving Window Function
-date: 2020-05-02
+subheadline: Statistical smoothing in Python
 teaser: An example moving or rolling window function that can be used for statistical smoothing operations.
 fig-caption:
 tags: [statistics, code help, python]

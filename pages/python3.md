@@ -12,18 +12,23 @@ permalink: "/python3/"
 widget1:
   title: "Rolling Window Function"
   url: '/snips/rolling-window/'
-  image: '/lmoments.png'
+  image: '/lmoments.webp'
   text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
 widget2:
   title: "Advanced Plotting in Seaborn"
   url: '/snips/seaborn-plotting/'
   text: 'Python example for creating overlapping histograms.'
-  image: '/hists_title.png'
+  image: '/hists_title.webp'
 widget3:
   title: "Distribution Fitting with PyStan"
   url: '/snips/distribution-fitting-stan/'
-  image: '/pystan_code.png'
-  text: 'Applying the Stan python package for distribution fitting'
+  image: '/pystan_code.webp'
+  text: 'Applying the Stan python package for distribution fitting.'
+widget4:
+  title: "Automatically convert images to .webp format"
+  url: '/snips/png-to-webp/'
+  image: '/great-nonfiction-books.webp'
+  text: 'A useful powershell script for optimizing entire directories of images into .webp format.'
 ---
 
 <div class="row t60">
@@ -38,7 +43,22 @@ widget3:
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
     {% endif %}   
+</div>
 
+<div class="row t3">
+	{% if page.widget4.image or page.widget4.video or page.widget4.title %}
+		{% include _frontpage-widget.html widget=page.widget4 %}
+    {% endif %}   
+
+	{% if page.widget5.image or page.widget5.video or page.widget5.title %}
+		{% include _frontpage-widget.html widget=page.widget5 %}
+	{% endif %}
+
+	{% if page.widget6.image or page.widget6.video or page.widget6.title %}
+		{% include _frontpage-widget.html widget=page.widget6 %}
+    {% endif %}
+    
+</div>
 
 <!-- 
 ![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)

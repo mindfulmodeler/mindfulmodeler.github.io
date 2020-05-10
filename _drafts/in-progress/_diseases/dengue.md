@@ -2,7 +2,7 @@
 layout: disease
 title: Dengue Fever
 description: a summary sheet about dengue Transmission
-img: dengue.png
+img: dengue.webp
 fig-caption: dengue spread
 
 

@@ -35,7 +35,7 @@ If I ask you think of a random number, there are an infinite number of different
 
 Before going any further, we should make a distinction between the two main classes of probability distributions.
 
-![scipy stats probability]({{site.baseurl}}/images/distribution-two-types.png)
+![scipy stats probability]({{site.baseurl}}/images/distribution-two-types.webp)
 
 ## Two classes of probability distributions
 1. **Discrete probability distributions**.
@@ -139,7 +139,7 @@ In a uniform probability distribution, variables are evenly distributed over a g
 plot_distribution(uniform, num=10000, mean=0, sd=10)
 {% endhighlight %}
 
-![uniform probability distribution]({{site.baseurl}}/images/distribution-uniform.png)
+![uniform probability distribution]({{site.baseurl}}/images/distribution-uniform.webp)
 
 ### Gaussian
 The Gaussian (Normal) distribution is the most famous continuous distribution - it's nice, familiar, and makes us happy to draw it. Just give the mean and standard deviation to create this bell-shaped curve. Because its only characterized by two parameters (the mean and variance) it's very easy to create. Real-world examples of the Gaussian distribution occur in:
@@ -152,7 +152,7 @@ The Gaussian (Normal) distribution is the most famous continuous distribution - 
 plot_distribution(norm, num=10000, mean=0, sd=10)
 {% endhighlight %}
 
-![normal probability distribution]({{site.baseurl}}/images/distribution-normal.png)
+![normal probability distribution]({{site.baseurl}}/images/distribution-normal.webp)
 
 ### Bernoulli
 A Bernoulli trial is one of the most basic distributions, since the random variable can take on one of two values. When a random trial can only end in one of two outcomes (success or failure), it may be referred to as a **Bernoulli Trial**. Examples include:
@@ -166,7 +166,7 @@ This type of distribution is specified by a single parameter (p), which indicate
 plot_distribution(bernoulli, num=10000, p=0.3)
 {% endhighlight %}
 
-![Bernoulli probability distribution]({{site.baseurl}}/images/distribution-bernoulli.png)
+![Bernoulli probability distribution]({{site.baseurl}}/images/distribution-bernoulli.webp)
 
 ### Binomial
 The Binomial distribution is used to model binary data (when only one of two possible outcomes can occur). It is applied to finding the probability that an event happens a certain number of times in a fixed number of trials. However, in order for a binomial distribution to be a good fit for the data, the following four assumptions must be met:
@@ -185,7 +185,7 @@ Keep in mind that the binomial distribution models the frequency of an outcome o
 plot_distribution(binom, n=5, p=0.2)
 {% endhighlight %}
 
-![Binomial probability distribution]({{site.baseurl}}/images/distribution-binomial.png)
+![Binomial probability distribution]({{site.baseurl}}/images/distribution-binomial.webp)
 
 ### Gamma
 The Gamma distribution models the amount of waiting time between Poisson distributed events. This type of distribution is useful when you're working with *rates*, for instance the amount of waiting time in a line.  Many natural events happen randomly yet still have well-established averages. For instance, when a specific person will die is unknown, though the country's average life expectancy is known. Other examples of when the gamma distribution applies include:
@@ -199,7 +199,7 @@ The Gamma distribution models the amount of waiting time between Poisson distrib
 plot_distribution(gamma, a=3)
 {% endhighlight %}
 
-![Gamma probability distribution]({{site.baseurl}}/images/distribution-gamma.png)
+![Gamma probability distribution]({{site.baseurl}}/images/distribution-gamma.webp)
 
 ### Poisson
 The Poisson distribution excels at working with *count* data. In other words, you can easily make a table containing the counts (1, 2, 3, etc.) along with the likelihood of each count. Often, this is used to determine the probability that a certain number of events will happen during a fixed time frame. The Poisson distribution is highly useful when you're working with the arrival of events because describes the probability of n events occurring during a set period of time. Therefore, a key parameter is the *average arrival rate (mu)*, which is important for determining the shape of the function.
@@ -212,7 +212,7 @@ The Poisson distribution excels at working with *count* data. In other words, yo
 plot_distribution(poisson, num=10000, mu=5)
 {% endhighlight %}
 
-![Poisson probability distribution]({{site.baseurl}}/images/distribution-poisson.png)
+![Poisson probability distribution]({{site.baseurl}}/images/distribution-poisson.webp)
 
 ### Probability Distributions - Conclusion
 How should uncertainty be handled when a system has some kind of randomness? Having a function that describes the dispersion of the values that a random variable can take is useful for many real-world problems. While the values of the unknown parameter still vary based on the underlying probability distribution, the function helps to reduce the uncertainty band around some output to its "typical" value.

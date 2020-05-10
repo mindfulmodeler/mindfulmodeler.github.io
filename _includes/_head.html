@@ -66,6 +66,16 @@
 	{% if site.socialmedia.facebook %}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
 
 
+	<!-- Global site tag (gtag.js) - Google Analytics - SMG ADDED -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146671307-2"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-146671307-2');
+	</script>
+
+
 	{% if site.socialmedia.twitter %}
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">

@@ -1,15 +1,29 @@
 ---
 published: false
 
-layout: post
-title: Fundamentals of Discrete Modeling
-date: 2018-01-01
-description: discrete # Add post description (optional)
-img:  # Add image post (optional)
-fig-caption:
-tags: [modeling, simulation, discrete]
-categories: [Modeling]
+layout: page
+sidebar: left
+subheadline: DES in Python 
+title:  "Fundamentals of Discrete Modeling"
+teaser: "Using the python package SimPy to explore some fundemental discrete event modeling principles."
+tags:
+    - simpy
+    - salabim
+    - discrete
+    - discrete event modeling
+    - article
+categories:
+    - modeling
+header: 
+    image_fullwidth: "/"
+
+breadcrumb: true
+show_meta: true
+comments: true
 ---
+
+
+
 **Article contents:**
 - TOC
 {:toc}
@@ -19,7 +33,7 @@ categories: [Modeling]
 A **system** is a set of things (T) and a set of relations (R). It has some internal structure and some interaction with the environment during a certain period of time. However, according to Ackoff, a system is more than only its objects and relations - there are independent variables influencing the system and dependent variables (outputs) from the system
 
 <br>
-![discrete model system](../assets/img/discrete-model.png){:.post-img-smallest}
+![discrete model system](../assets/img/discrete-model.webp){:.post-img-smallest}
 <br>
 
 # What is a Model?

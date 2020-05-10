@@ -10,27 +10,27 @@ header:
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'
-  image: '/water-well-collection.png'
+  image: '/water-well-collection.webp'
   text: 'Using a DES model to simulate women queueing at a water collection point.'
 widget2:
   title: "System Dynamics Modeling for Neglected Tropical Diseases"
   url: '/modeling/NTD-system-dynamics/'
   text: 'Application of system dynamics modeling to an understudied public health problem.'
-  image: '/ascaris_sfd.png'
+  image: '/ascaris_sfd.webp'
 widget3:
   title: "Hypothesis Testing in Policy Analysis"
   url: '/tutorial/hypothesis-testing/'
-  image: '/hypoth_testing_cover.png'
+  image: '/hypoth_testing_cover.webp'
   text: 'A discussion of the appropriateness of classical statistics including hypothesis testing in complex policy analysis problems.'
 widget4:
   title: "Many-Objective Evolutionary Algorithms"
   url: '/tutorial/many-objective-evolutionary-algorithms/'
-  image: '/rob3.png'
+  image: '/rob3.webp'
   text: 'An easy introduction to many-objective evolutionary algorithms and what they mean for policy analysis.'
 widget5:
   title: "A Python Lover's Guide for Getting Started with R"
   url: '/tutorial/getting-started-with-R/'
-  image: '/R-intro.png'
+  image: '/R-intro.webp'
   text: 'Introduction to R programming.'
 widget6:
   title: "Poverty Rates in Uganda - Multivariate Linear Regression"

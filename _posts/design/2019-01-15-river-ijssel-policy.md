@@ -32,7 +32,7 @@ The Netherlands has a history of major flood events. After the 1953 North Sea Fl
 ## The province of Gelderland along the River IJssel
 The following analysis concerns the River IJssel region of the Netherlands, where the province of Gelderland is considering policy proposals to reduce flood risk in their municipalities. Gelderland consists of a mix of strategically important rural and urban areas with four dike rings situated along the IJssel River. The province is responsible for finding a flood risk management strategy that is acceptable to constituents living in these dike rings as well as the national government who would ultimately help fund and build the project.
 
-![Gelderland dike policy]({{site.baseurl}}/images/dike.png)
+![Gelderland dike policy]({{site.baseurl}}/images/dike.webp)
 Key locations along the River IJssel
 
 # Deep Uncertainty in Policymaking
@@ -40,7 +40,7 @@ The following analysis uses exploratory modeling techniques  to help Gelderland 
 
 In this analysis, strategies for managing flood risk along a segment of the IJssel River are provided to the province of Gelderland. Decision-makers in Gelderland are responsible for creating a policy proposal which takes into account the internal preferences of its four municipalities situated along the river, as well as external dynamics relative to neighboring provinces and national authorities. The purpose of the analysis is to help Gelderland identify robust strategies for reducing flood risk in the province, while keeping in mind the political dynamics that will inevitably affect the policy adoption process.
 
-![XLRM exploratory modeling]({{site.baseurl}}/images/gelderland_xlrm.png)
+![XLRM exploratory modeling]({{site.baseurl}}/images/gelderland_xlrm.webp)
 XLRM Framework for the River IJssel case
 
 ## Decision Support on River IJssel Flood Management

@@ -37,7 +37,7 @@ for mn in range(1,13):
     
 fig.suptitle('Histograms of each month', size=16, y=1.04)
 
-fig.savefig(f'histograms.png')
+fig.savefig(f'histograms.webp')
 {% endhighlight %}
 
 ![l-moment smoothing]({{site.baseurl}}/images/histograms.webp)

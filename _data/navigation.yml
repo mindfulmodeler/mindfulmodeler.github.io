@@ -16,6 +16,8 @@
   dropdown:
   - title: "python3"
     url: "/python3/"
+  - title: "SQL"
+    url: "/sql/"
   - title: "JavaScript"
     url: "/js/"
 
