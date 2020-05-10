@@ -308,12 +308,12 @@ Now, the admin page will show you a list of all the models we created. Each of t
 ## Populating the data
 The Django admin interface is a real user-friendly way to insert data into our models. 
 
-![django populate data]({{site.baseurl}}/images/django-admin-populate-data.jpg)
+![django populate data]({{site.baseurl}}/images/add-new-disease-django-admin.jpg)
 
-Continue adding data to each table until there is a satisfying amount of data to work with. The next part is to add data to our database tables. We can do this in a number of different ways, but my favorite is by using the API and **fixtures**. 
+Continue adding data to each table until there is a satisfying amount of data to work with. The next part is to add data to our database tables. We can do this in a number of different ways, but my favorite is by using the API and <span style="color:hotpink">**fixtures**</span>. 
 
 ## Downloading the data as fixtures
-Once the data is in the database, we can download the stored information as a <span style="color:hotpink">**fixture**</span>.
+Once the data is in the database, we can download the stored information as a fixture (data dump).
 
 ![data dump fixtures]({{site.baseurl}}/images/data-dump-fixture.jpg)
 
@@ -323,15 +323,25 @@ The four parts of this command are:
 3. The data to download - this can be just one model or the entire app as shown here
 4. The path to/name of the fixture
 
-![fixtures database dump]({{site.baseurl}}/images/fixtures-dump.jpg)
-
-One of the nice things about having fixtures is that you can always revert back to this 'fresh load'. I often mess up my databases, especially when migrating or changing things around, and it's nice to know I can go back to this clean set of data. We can load the content from our database dumps (fixtures) into the database using:  
+The result is a json file that  be loaded into the database, serving as a great backup to the data entry work you've done so far. But you don't have to download the entire project into a massive fixture - it's just as easy to dump data for a single model:
 
 {% highlight ruby %}
-manage.py loaddata user.json
+python manage.py dumpdata diseaseapp.disease > diseasefixture.json
 {% endhighlight %}
 
-Now we have a fresh copy of the database. This is great for when you want to run tests on your data - inserting, deleting, trying to break things - and knowing you can always revert back to this fresh copy of the data. 
+
+![fixtures database dump]({{site.baseurl}}/images/fixtures-dump.jpg)
+
+One of the nice things about having fixtures is that you can always revert back to this 'fresh load'. I often mess up my databases, especially when migrating or changing things around, and it's nice to know I can go back to this clean set of data. We can load the content from our database dumps into the database using:  
+
+{% highlight ruby %}
+manage.py loaddata diseasefixture.json
+{% endhighlight %}
+
+Now we have a fresh copy of the disease data for our database. This is great for when you want to run tests on your data - inserting, deleting, trying to break things - and knowing you can always revert back to this version of the data. 
+
+## What's next?
+In the next post, I'll cover building effective API endpoints and using the python package Graphene for advanced querying and mutation. Stay tuned!
 
 
 
