@@ -14,7 +14,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/R-intro.webp"
+    image_fullwidth: "/R-intro.jpg"
 show_meta: true
 comments: true
 ---
@@ -103,7 +103,7 @@ skim_to_wide(df_stops)
 {% endhighlight %}
 
 
-![R skim dataframe summary]({{site.baseurl}}/images/R-intro-skim.webp)
+![R skim dataframe summary]({{site.baseurl}}/images/R-intro-skim.jpg)
 
 To get subsets of the full dataframe, we can use `filter()` to choose certain rows and `select()` to choose certain columns.
 
@@ -197,7 +197,7 @@ barplot1 + ggtitle("Duration of traffic stop by gender and ethnicity")
 {% endhighlight %}
 
 
-![R barplot ethnic gender]({{site.baseurl}}/images/R-intro-barplot1.webp)
+![R barplot ethnic gender]({{site.baseurl}}/images/R-intro-barplot1.jpg)
 
 Interesting. Non-Hispanic women seem to have longer traffic stops. What if we look at gender across races, instead of ethnicity?
 
@@ -211,7 +211,7 @@ barplot2 <- ggplot(df_stops_subset, aes(y = Min, x = race))+
 barplot2 + ggtitle("Duration of traffic stop by gender and race")
 {% endhighlight %}
 
-![R barplot race gender]({{site.baseurl}}/images/R-intro-barplot2.webp)
+![R barplot race gender]({{site.baseurl}}/images/R-intro-barplot2.jpg)
 
 Again the graph is interesting. For all races except W, the total amount of minutes women are pulled over is much less than men. But is the *total* amount of minutes an appropriate way to look at it? Wouldn't the *average* length of the traffic stop be a better indicator?
 
@@ -225,7 +225,7 @@ barplot3 <- ggplot(df_stops_subset, aes(y = Min, x = race))+
 barplot3 + ggtitle("Average duration of traffic stop by gender and race")
 {% endhighlight %}
 
-![R traffic stop average race]({{site.baseurl}}/images/R-intro-barplot3.webp)
+![R traffic stop average race]({{site.baseurl}}/images/R-intro-barplot3.jpg)
 
 This graph showing the *average* length of a traffic stop is closer to what we might expect - there duration is pretty much the same across the sexes regardless of race. The exception is the "U" category, but because this is unknown we cannot draw any meaningful conclusion.
 
@@ -236,7 +236,7 @@ ggplot(data = df_stops_subset, mapping = aes(x = Year.of.birth, y = Min) +
 {% endhighlight %}
 The result looks like:
 
-![R scatter plot race]({{site.baseurl}}/images/R-intro-race-vs-age.webp)
+![R scatter plot race]({{site.baseurl}}/images/R-intro-race-vs-age.jpg)
 
 Can you see anything interesting about the driver's race and their age? Me neither. That's because this plot shows that some of the people being pulled over in Boulder are at least 1,000 years old (they probably shouldn't be behind the wheel). Other drivers haven't even been born yet, since their 'Year.of.birth' is around year 3000.
 

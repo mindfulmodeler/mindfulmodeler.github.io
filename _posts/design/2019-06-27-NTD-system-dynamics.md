@@ -13,7 +13,7 @@ tags:
 categories:
     - modeling
 header:
-    image_fullwidth: "/ascaris_sfd.webp"
+    image_fullwidth: "/ascaris_sfd.jpg"
 show_meta: true
 comments: true
 ---
@@ -42,7 +42,7 @@ Intervention strategies against the parasite typically focus on improving water,
 
 ## Conceptual model
 
-![ascariasis feedback loop]({{site.baseurl}}/images/ascaris.webp)
+![ascariasis feedback loop]({{site.baseurl}}/images/ascaris.jpg)
 
 The main feedback loop in this model highlights the significance of having an infectious soil reservoir, which contributes to disease transmission unless interrupted (shown in blue below). Expanded versions of this model should incorporate feedback effects of GDP and improved sanitation (shown in grey).
 
@@ -53,7 +53,7 @@ The main feedback loop in this model highlights the significance of having an in
 * **Cost**: Comparing the costs of mass drug administration (“Total cost of MDA”) to the cost of constructing new sanitation facilities (“Annual WASH construction budget”), facilitates program design and budget allocation.
 * **Mean Worm Burden**: The average intensity of infection per AgeGroup. For example, a Pre-SAC worm burden of “10” means that the average infected pre-school aged child in that country hosts 10 adult worms. Due to higher soil contact rates, Pre-SAC and SAC populations generally have the highest-intensity infections.
 
-![stock flow diagram]({{site.baseurl}}/images/ascaris_sfd.webp){:target="_blank"}
+![stock flow diagram]({{site.baseurl}}/images/ascaris_sfd.jpg){:target="_blank"}
 
 ## Critical assumptions
 * No data are available on the number of sanitation facilities in India or Nigeria for the years 1960-1990. For this time period, sanitation access was estimated.  
@@ -66,17 +66,17 @@ Flow loops occur inside the Infection sub-model because Nigeria is endemic for A
 
 ## Base case behavior
 Fig 1a. Nigeria Status Quo (No intervention)
-![Status Quo Nigeria]({{site.baseurl}}/images/ascaris_nigeria_base.webp)
+![Status Quo Nigeria]({{site.baseurl}}/images/ascaris_nigeria_base.jpg)
 
 Fig 1b. India Status Quo (No intervention)
-![Status Quo India]({{site.baseurl}}/images/ascaris_india_base.webp)
+![Status Quo India]({{site.baseurl}}/images/ascaris_india_base.jpg)
 
 ## Explanation of Infection Sub-model
 In areas that are endemic for a. lumbricoides, most people are essentially “living with a mild infection” because they are constantly being re-infected and/or accumulating parasites. Therefore, the bulk of the infected population is contained in this “recurring infection” loop.
 
 A very small portion of the population become “heavily infected” and may die if not treated. Currently, this sub-model assumes a constant fatality rate (which is higher in children). However, in future models we would like to tie the fatality rate to the mean worm burden, since fatality is related to the intensity of the infection.
 
-![ascaris lumbricoides infection]({{site.baseurl}}/images/ascaris_inf_sub.webp)
+![ascaris lumbricoides infection]({{site.baseurl}}/images/ascaris_inf_sub.jpg)
 
 The lifespan of an adult parasite in a host is 1-2 years. Therefore, if a person is moved out of an infectious environment they will pass the worm from their body in that amount of time. However, in endemic areas the soil is so infected that a person will probably acquire a new parasite in that amount of time, rather than be able to recover naturally. Therefore, we assume that unless sanitation access is >50%, the population will be stuck in the “recurring infection” loop. If new latrines are constructed such that the majority of them have sanitation access, then people are able to more to the “Recovered” stock.
 
@@ -87,7 +87,7 @@ If the treatment switch is turned on (for any of the AgeGroups) then the infecte
 #### How sensitive is the number of infections to “soil contact rate?”
 The variable “soil contact rate” was an educated estimate. This is a highly understudied academic domain with very few studies that have taken measurements taken to gauge soil contact. Doing so would be extremely time and resource intensive, because researchers would essentially need to understand how much “new” dirt individuals come into contact with each day, from activities ranging from eating an unwashed vegetable to petting a dusty animal. Some epidemiological studies estimate contact rates of 0.02, which was the basis for our soil contact estimates. We assumed low values for infants -who are likely to be held on the hip by the mother- and also low for adults who are cleaner. Higher values used for children to reflect high infection rates.
 
-![sensitivity analysis]({{site.baseurl}}/images/ascaris_SA.webp)
+![sensitivity analysis]({{site.baseurl}}/images/ascaris_SA.jpg)
 Note: For readability, figure shows sensitivity for Nigerian Pre-School Aged Children only.
 
 ## Recommendations & Conclusions:
@@ -95,7 +95,7 @@ Note: For readability, figure shows sensitivity for Nigerian Pre-School Aged Chi
 
 Current treatment policy, India: Entire population treated, 1x per year for 6 years. N.B. Even when adults are included in the MDA program, “bounce back” will occur within a decade.
 
-![ascaris current policy]({{site.baseurl}}/images/ascaris_bounce_back.webp)
+![ascaris current policy]({{site.baseurl}}/images/ascaris_bounce_back.jpg)
 
 * Constructing sanitation facilities requires more upfront cost. However, improving sanitation infrastructure accomplishes 3 things:
   * Avoids having to treat the population indefinitely with Albendazole.

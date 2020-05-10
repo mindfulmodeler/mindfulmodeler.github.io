@@ -5,7 +5,7 @@ layout: post
 title: "Learning data science for policy analysis"
 date: 2019-09-05
 description: Tips and tricks about learning data science for policy analysis problems.
-img: numbers.webp
+img: numbers.jpg
 fig-caption: Data and Policy
 tags: [policy analysis, data science, statistics, python, visualizations]
 categories: [Policy]

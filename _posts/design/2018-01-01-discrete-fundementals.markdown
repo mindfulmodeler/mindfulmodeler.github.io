@@ -33,7 +33,7 @@ comments: true
 A **system** is a set of things (T) and a set of relations (R). It has some internal structure and some interaction with the environment during a certain period of time. However, according to Ackoff, a system is more than only its objects and relations - there are independent variables influencing the system and dependent variables (outputs) from the system
 
 <br>
-![discrete model system](../assets/img/discrete-model.webp){:.post-img-smallest}
+![discrete model system](../assets/img/discrete-model.jpg){:.post-img-smallest}
 <br>
 
 # What is a Model?

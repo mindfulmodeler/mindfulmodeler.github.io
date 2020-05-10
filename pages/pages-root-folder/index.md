@@ -6,36 +6,36 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "/unsplash_water3.webp"
+  image_fullwidth: "/unsplash_water3.jpg"
 widget1:
   title: "Salabim Discrete Modeling Tutorial"
   url: '/modeling/salabim-discrete-modeling/'
-  image: '/water-well-collection.webp'
+  image: '/water-well-collection.jpg'
   text: 'Using a DES model to simulate women queueing at a water collection point.'
 widget2:
   title: "System Dynamics Modeling for Neglected Tropical Diseases"
   url: '/modeling/NTD-system-dynamics/'
   text: 'Application of system dynamics modeling to an understudied public health problem.'
-  image: '/ascaris_sfd.webp'
+  image: '/ascaris_sfd.jpg'
 widget3:
   title: "Hypothesis Testing in Policy Analysis"
   url: '/tutorial/hypothesis-testing/'
-  image: '/hypoth_testing_cover.webp'
+  image: '/hypoth_testing_cover.jpg'
   text: 'A discussion of the appropriateness of classical statistics including hypothesis testing in complex policy analysis problems.'
 widget4:
   title: "Many-Objective Evolutionary Algorithms"
   url: '/tutorial/many-objective-evolutionary-algorithms/'
-  image: '/rob3.webp'
+  image: '/rob3.jpg'
   text: 'An easy introduction to many-objective evolutionary algorithms and what they mean for policy analysis.'
 widget5:
   title: "A Python Lover's Guide for Getting Started with R"
   url: '/tutorial/getting-started-with-R/'
-  image: '/R-intro.webp'
+  image: '/R-intro.jpg'
   text: 'Introduction to R programming.'
 widget6:
   title: "Poverty Rates in Uganda - Multivariate Linear Regression"
   url: '/tutorial/multivariate-linear-regression-uganda/'
-  image: '/multi-linreg-uganda-maps.webp'
+  image: '/multi-linreg-uganda-maps.jpg'
   text: 'Applying single and multivariate linear regression using python to a global policy problem.'
 #
 # Use the call for action to show a button on the frontpage
@@ -59,7 +59,7 @@ permalink: /index.html
 homepage: true
 ---
 
-<!-- ![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.webp)
+<!-- ![exploratory versus predictive modeling]({{site.baseurl}}/images/unsplashC2.jpg)
  -->
 <!-- Exploratory Modeling Tips -->
 

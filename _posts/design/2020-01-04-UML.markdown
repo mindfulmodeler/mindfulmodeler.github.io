@@ -13,7 +13,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/diseaseUML.webp"
+    image_fullwidth: "/diseaseUML.jpg"
 show_meta: true
 comments: true
 ---

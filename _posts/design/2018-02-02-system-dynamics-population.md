@@ -13,7 +13,7 @@ tags:
 categories:
     - modeling
 header:
-   image_fullwidth: "/pop_model2.webp"
+   image_fullwidth: "/pop_model2.jpg"
 show_meta: true
 comments: true
 ---
@@ -32,7 +32,7 @@ Having a reliable population model is a useful foundation for many public health
 **Related Article**: [Vensim and the Exploratory Modeling Workbench](/vensim-system-dynamics)
 
 
-![Total number infected]({{site.baseurl}}/images/TLL.webp)
+![Total number infected]({{site.baseurl}}/images/TLL.jpg)
 
 If you are beginner in continuous modeling and/or Vensim, this example may be helpful launching point for your own studies.
 

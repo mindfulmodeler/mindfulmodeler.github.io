@@ -14,8 +14,8 @@ tags:
 categories:
     - tutorial
 header:
-    image: linear.webp
-    pattern: pattern_concrete.webp
+    image: linear.jpg
+    pattern: pattern_concrete.jpg
     caption: Mapping with GeoPandas in Python
     caption_url: https://unsplash.com/
 show_meta: true
@@ -43,7 +43,7 @@ Linear Regression is commonly used when you have a set of input values and want 
 
 
 
-![Linear regression single]({{site.baseurl}}/images/linear_single.webp)
+![Linear regression single]({{site.baseurl}}/images/linear_single.jpg)
 
 
 
@@ -109,7 +109,7 @@ sns.regplot(x='Life expectancy', y='Births per woman', data=df1)
 
 
 
-![Linear relationship check]({{site.baseurl}}/images/births_vs_lifeexp.webp)
+![Linear relationship check]({{site.baseurl}}/images/births_vs_lifeexp.jpg)
 
 
 Another option is to use a **join plot** to get a better feel for the distribution of points.
@@ -119,7 +119,7 @@ Another option is to use a **join plot** to get a better feel for the distributi
 sns.jointplot(x='Life expectancy', y='Births per woman', data=df1, kind="reg");
 {% endhighlight %}
 
-![Linear relationship join plot]({{site.baseurl}}/images/linear_reg_join_plot.webp)
+![Linear relationship join plot]({{site.baseurl}}/images/linear_reg_join_plot.jpg)
 
 From the shape of these initial plotting exercises, we can be pretty sure that a linear relationship exists between our independent and dependent variables.
 
@@ -194,7 +194,7 @@ plt.title('Predicted versus Actual outcome')
 plt.show()
 {% endhighlight %}
 
-![actual vs predicted regression]({{site.baseurl}}/images/lin_pred_actual_barchart.webp)
+![actual vs predicted regression]({{site.baseurl}}/images/lin_pred_actual_barchart.jpg)
 
 
 Alternatively, we might wish to look at these results using a scatter plot, so that we can overlay the linear model with the test data.
@@ -211,7 +211,7 @@ plt.grid(True)
 plt.show()
 {% endhighlight %}
 
-![linear model scatter]({{site.baseurl}}/images/lin_model_scatter.webp)
+![linear model scatter]({{site.baseurl}}/images/lin_model_scatter.jpg)
 
 
 Looking at these figures, it seems like our linear regression model is able to provide close (not perfect) approximations of the actual test data.  **Is the model a good enough fit?** At the very least, our model should be a better predictor than just using the mean value to estimate future trends. At this point, we may want to use some statistical metrics to evaluate the performance of our linear model.  

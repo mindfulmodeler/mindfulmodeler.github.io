@@ -13,7 +13,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/covid-unsplash..webp"
+    image_fullwidth: "/covid-unsplash.jpg"
 show_meta: true
 comments: true
 ---
@@ -37,12 +37,12 @@ In this tutorial, we'll be building an infectious diesease web application from 
 
 Also, please note that I'm writing this from the perspective of a Windows 10 user. Other OS's will have slightly different commands. 
 
-![get started in django quickly]({{site.baseurl}}/images/lets-do-this.webp)
+![get started in django quickly]({{site.baseurl}}/images/lets-do-this.jpg {{site.baseurl}}/images/lets-do-this.png)
 
 # Create a New Conda Virtual Environment
 Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so. 
 
-![open new anaconda prompt]({{site.baseurl}}/images/new-anaconda-prompt.webp)
+![open new anaconda prompt]({{site.baseurl}}/images/new-anaconda-prompt.jpg){: .shadow}
 
 Inside the new prompt, you'll see your current environment and working directory, something like: ```(base) C:\Users\mindfulmodeler```. The most basic way of creating a new conda environment is by following this syntax:
 
@@ -58,7 +58,7 @@ After creating an environment, the next step is to install all the packages you 
 conda create --name djangoenv pandas numpy django
 {% endhighlight %}
 
-![activate new conda environment]({{site.baseurl}}/images/activate-new-conda-env.webp)
+![activate new conda environment]({{site.baseurl}}/images/activate-new-conda-env.jpg)
 
 
 And then we can activate the newly created environment as the instructions tell us:
@@ -81,7 +81,7 @@ conda install -c conda-forge graphene-django
 
 The [anaconda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) is a great, easy-to-read reference for more commands related to virtual environment setup and package installation. And remember - if you're unsure about what channel you should install an anaconda package from, just Google it! If a package really isn't available anywhere in conda though, you can always use `pip install` instead (yes you can use pip inside a conda environment, but I'd advise only doing it as a last resort to avoid conflicts).
 
-![conda-forge install package]({{site.baseurl}}/images/conda-install-package.webp)
+![conda-forge install package]({{site.baseurl}}/images/conda-install-package.jpg)
 
 
 ## Creating a Django project
@@ -106,7 +106,7 @@ A summary of these steps:
 
 From here, we can navigate to the localhost (`http://127.0.0.1:8000/`) in our browser and verify that the setup worked as expected. If so, we'll see this page:
 
-![web app landing page]({{site.baseurl}}/images/successful-django-setup.webp)
+![web app landing page]({{site.baseurl}}/images/successful-django-setup.jpg)
 
 ## The essential Django components of our diseaseapp
 The most important components for working in Django are our (1) views, (2) urls, and (3) models. 
@@ -127,7 +127,7 @@ Now if you navigate to `http://127.0.0.1:8000/index` and you should see a page w
 ### 2. URLs
 Whenever you create a view in Django, you'll also need to configure a URL. You can easily do this using the `path()` function. For instance, a url configuration for AboutMe page might look like: `path('about/', views.about)`. This example has two main parts: (1) the url request to 'about/' and the view that it is routed to. 
 
-![project-level urls file]({{site.baseurl}}/images/healthsite-urls-directory-levels.webp)
+![project-level urls file]({{site.baseurl}}/images/healthsite-urls-directory-levels.jpg)
 
 #### A urls.py for the diseaseapp
 Create a NEW urls.py **inside** of the diseaseapp directory. 
@@ -170,15 +170,15 @@ Navigate to the settings file, __healthsite/settings.py__, which contains a lot 
 
 #### Before - default sqlite settings:
 
-![django settings default sqlite3]({{site.baseurl}}/images/sqlite-django-settings.webp)
+![django settings default sqlite3]({{site.baseurl}}/images/sqlite-django-settings.jpg)
 
 #### After - set to postgres backend:
 
-![django settings default postgres]({{site.baseurl}}/images/postgres-django-settings.webp)
+![django settings default postgres]({{site.baseurl}}/images/postgres-django-settings.jpg)
 
 And one more thing about the settings file (while we're here). Add this line inside of the INSTALLED_APPS : `'diseaseapp.apps.DiseaseappConfig'`. This lets the django healthsite *project* know about our infectious disease *app*.
 
-![installed_apps settings]({{site.baseurl}}/images/installed-apps-settings-add.webp)
+![installed_apps settings]({{site.baseurl}}/images/installed-apps-settings-add.jpg)
 
 Once the database is properly connected, use the following command:
 
@@ -186,7 +186,7 @@ Once the database is properly connected, use the following command:
 python manage.py migrate
 {% endhighlight %}
 
-![migrate django database]({{site.baseurl}}/images/migrate-disease-app.webp)
+![migrate django database]({{site.baseurl}}/images/migrate-disease-app.jpg)
 
 
 # Models (i.e database tables)
@@ -266,8 +266,8 @@ python manage.py runserver
 
 With the server running, navigate in your browser to `http://127.0.0.1:8000/admin/` and login with the superuser information you created.
 
-![django admin]({{site.baseurl}}/images/django-admin.webp)
-<!-- ![makemigrations database]({{site.baseurl}}/images/makemigrations-disease-app.webp) -->
+![django admin]({{site.baseurl}}/images/django-admin.jpg)
+<!-- ![makemigrations database]({{site.baseurl}}/images/makemigrations-disease-app.jpg) -->
 
 
 ### Register a model in Django admin
@@ -302,20 +302,20 @@ for model in models:
 
 Now, the admin page will show you a list of all the models we created. Each of these can be clicked on and populated using this built-in Django interface.
 
-![django admin model interface]({{site.baseurl}}/images/django-admin-models.webp)
+![django admin model interface]({{site.baseurl}}/images/django-admin-models.jpg)
 
 
 ## Populating the data
 The Django admin interface is a real user-friendly way to insert data into our models. 
 
-![django populate data]({{site.baseurl}}/images/django-admin-populate-data.webp)
+![django populate data]({{site.baseurl}}/images/django-admin-populate-data.jpg)
 
 Continue adding data to each table until there is a satisfying amount of data to work with. The next part is to add data to our database tables. We can do this in a number of different ways, but my favorite is by using the API and **fixtures**. 
 
 ## Downloading the data as fixtures
 Once the data is in the database, we can download the stored information as a <span style="color:hotpink">**fixture**</span>.
 
-![data dump fixtures]({{site.baseurl}}/images/data-dump-fixture.webp)
+![data dump fixtures]({{site.baseurl}}/images/data-dump-fixture.jpg)
 
 The four parts of this command are:
 1. The Django `dumpdata` command 
@@ -323,7 +323,7 @@ The four parts of this command are:
 3. The data to download - this can be just one model or the entire app as shown here
 4. The path to/name of the fixture
 
-![fixtures database dump]({{site.baseurl}}/images/fixtures-dump.webp)
+![fixtures database dump]({{site.baseurl}}/images/fixtures-dump.jpg)
 
 One of the nice things about having fixtures is that you can always revert back to this 'fresh load'. I often mess up my databases, especially when migrating or changing things around, and it's nice to know I can go back to this clean set of data. We can load the content from our database dumps (fixtures) into the database using:  
 

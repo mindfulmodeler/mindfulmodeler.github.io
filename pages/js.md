@@ -5,23 +5,23 @@ title: "JavaScript"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some ideas and features related to JavaScript programming."
 header:
-   image_fullwidth: "/header_roadmap_3.webp"
+   image_fullwidth: "/header_roadmap_3.jpg"
 permalink: "/js/"
 
 widget1:
   title: "Moving Window Tutorial"
   url: '/tutorial/'
-  image: /images/movingwindow2.webp
+  image: /images/movingwindow2.jpg
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 widget2:
   title: "Django Foreign Key Mapping"
   url: '/tutorial/'
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-  image: images/movingwindow2.webp
+  image: images/movingwindow2.jpg
 widget3:
   title: "Calculating L-Moments"
   url: '/tutorial/'
-  image: http://localhost:4000/home/images/hypoth_testing_cover.webp
+  image: http://localhost:4000/home/images/hypoth_testing_cover.jpg
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 
 ---
@@ -41,7 +41,7 @@ Content coming soon.
 
 Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
 
-![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp) -->
+![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.jpg) -->
 <!-- <p>{{ snip.content | markdownify }}</p> -->
 
 <!-- <div class="row">

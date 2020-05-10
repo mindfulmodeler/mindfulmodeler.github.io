@@ -2,7 +2,7 @@
 layout: page-fullwidth
 breadcrumb: true
 header:
-    image_fullwidth: '/lmoments.webp'
+    image_fullwidth: '/lmoments.jpg'
 title: Moving Window Function
 subheadline: Statistical smoothing in Python
 teaser: An example moving or rolling window function that can be used for statistical smoothing operations.
@@ -69,7 +69,7 @@ def rolling_window(A, win_shape=(3,3)):
     return f                 
 {% endhighlight %}
 
-![l-moment smoothing]({{site.baseurl}}/images/movingwindow2.webp)
+![l-moment smoothing]({{site.baseurl}}/images/movingwindow2.jpg)
 
 ### Plot original versus smoothed data
 {% highlight ruby %}

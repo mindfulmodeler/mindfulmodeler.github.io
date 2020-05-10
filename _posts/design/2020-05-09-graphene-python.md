@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 # sidebar: left
 subheadline: 
 title: "Graphene"
@@ -48,7 +49,7 @@ https://stackoverflow.com/questions/54328681/enable-pk-based-filtering-in-django
 
 
 
-![installed_apps settings]({{site.baseurl}}/images/installed-apps-settings.webp)
+![installed_apps settings]({{site.baseurl}}/images/installed-apps-settings.jpg)
 
 
 {% highlight ruby %}

@@ -16,9 +16,9 @@ tags:
     - writing sample
     - article
 # image:
-#     title: /haiti.webp
+#     title: /haiti.jpg
 header:
-   image_fullwidth: "/handwashing.webp"
+   image_fullwidth: "/handwashing.jpg"
 author: Shannon M. Gross
 comments: true
 ---
@@ -29,7 +29,7 @@ Historical records indicated no reported cases of cholera in Haiti before the U.
 
 Thousands of Haitian victims have demanded that the U.N. compensate them for their illnesses and the death of loved ones, but the U.N. refuses to discuss their claims. The international organization possesses absolute immunity from lawsuits –unless it explicitly waives that right– and denies any responsibility for bringing cholera to Haiti. Not wanting to accept complete financial responsibility for the epidemic, U.N. officials have remained silent on the issue, and its top lawyer simply cited “policy concerns” for the reasons the victims were “not receivable”.
 
-![Cholera in Haiti]({{site.baseurl}}/images/haiti.webp)
+![Cholera in Haiti]({{site.baseurl}}/images/haiti.jpg)
 
 The U.N.’s refusal to establish a claims commission, waive its immunity, or apologize for the harms caused by its negligence denies the victims the possibility of redress or compensation for their suffering. This course of dismissal has fueled Haitian outrage and must not continue.
 

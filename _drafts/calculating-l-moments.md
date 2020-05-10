@@ -72,7 +72,7 @@ def rolling_window(A, win_shape=(3,3)):
     return f                 
 {% endhighlight %}
 
-![l-moment smoothing]({{site.baseurl}}/images/lmoments.webp)
+![l-moment smoothing]({{site.baseurl}}/images/lmoments.jpg)
 
 ### Plot original versus smoothed data
 {% highlight ruby %}

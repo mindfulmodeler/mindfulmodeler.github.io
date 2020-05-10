@@ -14,7 +14,7 @@ tags:
 categories:
     - policy
 header:
-    image_fullwidth: "/africa.webp"
+    image_fullwidth: "/africa.jpg"
 show_meta: true
 comments: true
 ---

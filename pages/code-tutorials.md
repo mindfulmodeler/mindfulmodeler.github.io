@@ -7,7 +7,7 @@ subheadline: "Scripts &amp; Code Tips"
 teaser: "Example code segments and lessons learned"
 permalink: "/code-tutorials/"
 header:
-   image_fullwidth: "/software.webp" 
+   image_fullwidth: "/software.jpg" 
 ---
 
 <div id="blog-index" class="row">

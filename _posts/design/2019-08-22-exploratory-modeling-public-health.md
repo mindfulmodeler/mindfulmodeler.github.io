@@ -14,7 +14,7 @@ tags:
 categories:
     - modeling
 header:
-    image: "/exp.webp"
+    image: "/exp.jpg"
     background-color:  "white"
 show_meta: true
 comments: true
@@ -33,7 +33,7 @@ Policymakers are rarely interested in a single pathogen under narrowly-defined c
 ## Looking at the whole system
 Infectious diseases do not spread in isolation. Instead, pathogens are transmitted through complex mechanisms involving human behaviors and external conditions in the environment. This is one reason for incorporating a range of expertise in policy discussions. Additionally, not all decisions related to public health are performed by those with medical expertise. For instance, financial institutions, donor agencies, or water and sanitation engineers are all examples of influential actors on community health who may not have epidemiological backgrounds. Models that incorporate non-medical domains (or at least, are interpretable by those lacking clinical experience) may be useful in multi-actor policy situations.
 
-![systems thinking in medicine]({{site.baseurl}}/images/scopes.webp)
+![systems thinking in medicine]({{site.baseurl}}/images/scopes.jpg)
 
 To account for complexity and interdisciplinarity, a growing number of researchers are advocating for the application of **systems thinking** to public health issues. Systems approaches account for the complex interrelationships between connected sub-systems and encourage the integration of cross-disciplinary knowledge. Such methods move beyond the traditional methods used in disease epidemiology because they work to account for factors such as: economic mechanisms, community effects, social interactions, ecological factors, and other interdependent elements.
 
@@ -47,7 +47,7 @@ Modelling assumptions are necessary in cases of uncertainty. Uncertain parameter
 
 [Deep uncertainty](https://www.sciencedirect.com/science/article/pii/S1364815212003131) refers to a situation where the various parties to a decision do not know or cannot agree on how the system works; how likely various possible future states of the world are; and how important the various outcomes of interest are. Accordingly, deep uncertainty problems are often contentious. From a  modeler’s perspective, this means that there are many plausible model structures that could be used; a variety of perspectives on how to formulate the main objectives; and different ideas about what the optimal solution sets are. In situations of deep uncertainty, traditional decision analysis methods may be insufficient to assist decision makers in coming up with strategies to achieve their objectives.
 
-![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
+![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.jpg)
 
 The classic use of modelling to support decision making tries to predict future outcomes with computational simulation, but such approaches are ill-equipped to handle [deep uncertainty](https://www.sciencedirect.com/science/article/pii/S1364815217301251). If even forming a “best-guess” probability distribution of a particular uncertainty is unsuitable or impossible, then traditional models may be unable to support decision-making. Thus, rather than falsely trying to reduce an irreducible uncertainty – or avoiding creating a model about the topic at all – modelling techniques that are able to systematically explore deep uncertainty values are needed.
 

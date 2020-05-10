@@ -14,7 +14,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/rob3.webp"
+    image_fullwidth: "/rob3.jpg"
 show_meta: true
 comments: true
 ---
@@ -38,7 +38,7 @@ For each of these examples, it's unlikely that policymakers will be able to come
 {:toc}
 </div>
 
-![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob3.webp)
+![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob3.jpg)
 
 ## Many Objective Optimization
 A multiobjective problem will rarely (likely never) result in a single, “best” solution. Instead, there will likely be a suite of solutions where the objectives are optimized differently. An important concept is that of **Pareto optimality**, which is used to compare the solutions of a MOP. Pareto optimality is concerned with finding a *set* of best solutions for the problem, where each solution is a compromise among objectives. Ultimately, no computer can make the final policy choice out of the pareto-approximate set, since this last part of the process is more a question of values and principles rather than numbers.
@@ -47,7 +47,7 @@ The aim of multiobjective optimization is to find the approximate Pareto Front, 
 
 The mathematics behind multiobjective optimization can be complex, so a variety of new and increasingly innovative algorithms have been developed to handle the computations. Some of the most promising computational strategies in recent years are a part of the family of **evolutionary algorithms**, which mimic the processes of Darwinian evolution in order to find high-performing solution sets. Evolutionary Algorithms are highly promising for helping to solve MOPs because they are population-based search (optimization) methods that don’t rely on assumptions like differentiability. By mimicking biological processes, genetic algorithms provide an efficient method for converging towards diverse and high-performing solution sets. For a deeper introduction into evolutionary algorithms, I recommend starting with [this video](https://youtu.be/1i8muvzZkPw).
 
-![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob2.webp)
+![multi objective evolutionary algorithm]({{site.baseurl}}/images/rob2.jpg)
 
 # Why use Many-Objective Evolutionary Algorithms for robust policy search?
 Many-Objective Evolutionary Algorithms (MOEAs) are particularly useful in their ability to perform global optimization and discover high-performing policy options. Mimicking natural processes of evolution, MOEAs iteratively evaluate possible strategies across the many objectives until the best candidates are found. Using a MOEA is often preferred over classical optimization methods for the following reasons:
@@ -69,17 +69,17 @@ Traditional NSGAII was extended in 2005 by Kollat & Reed into **epsilon-NSGAII**
 Tools such as the [exploratory modeling workbench](https://github.com/quaquel/EMAworkbench) by Jan Kwakkel can incorporate a variety of search algorithms. Notably, epsilon-NSGAII is the default search algorithm used by ema workbench, which provides a relatively thorough and efficient use for beginner to intermediate applications.  
 
 <!-- <br>
-![multi objective optimization](../assets/img/optimiz.webp){:.post-img-large}
+![multi objective optimization](../assets/img/optimiz.jpg){:.post-img-large}
 <br> -->
 
-<!-- ![Search](../assets/img/search.webp) -->
+<!-- ![Search](../assets/img/search.jpg) -->
 
 ## Concluding Remarks
 The popularity of applying many objective evolutionary algorithms to complex real-world issues has risen dramatically over the last several years. The ability of MOEAs to efficiently approximate a pareto front is useful for helping policymakers make sense of important tradeoffs in the objective space. This is especially the case when the presence of multiple, conflicting objectives means that the analyst cannot present a single "best" solution.
 
 A challenge remaining in multiobjective optimization research is the difficulty [visualizing the solutions](/ema-workbench-visual). Often, special methods, such as parallel (rather than orthogonal) coordinate plotting or dimensionality reduction are needed.
 
-![pareto optimality]({{site.baseurl}}/images/pareto.webp)
+![pareto optimality]({{site.baseurl}}/images/pareto.jpg)
 
 ## References
 Kasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71.

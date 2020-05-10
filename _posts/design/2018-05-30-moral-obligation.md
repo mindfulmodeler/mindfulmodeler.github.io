@@ -14,7 +14,7 @@ tags:
 categories:
     - policy
 header:
-    image_fullwidth: "/poverty.webp"
+    image_fullwidth: "/poverty.jpg"
 show_meta: true
 comments: true
 ---

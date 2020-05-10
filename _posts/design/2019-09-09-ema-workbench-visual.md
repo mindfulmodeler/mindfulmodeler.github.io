@@ -14,9 +14,9 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/nl-water.webp"
+    image_fullwidth: "/nl-water.jpg"
 image:
-    title: /rotav_OE_title.webp
+    title: /rotav_OE_title.jpg
 show_meta: true
 comments: true
 ---
@@ -117,7 +117,7 @@ plt.show()
 
 The result of this is something like the following:
 
-![pairs plotting]({{site.baseurl}}/images/rotav_OE_para.webp)
+![pairs plotting]({{site.baseurl}}/images/rotav_OE_para.jpg)
 
 Readers should realize that each objective of the problem formulation is plotted against the other objectives, so the x- and y-axes mirror each other. These scatter plots are useful for providing visual insight into the relations between the different objectives.
 
@@ -142,7 +142,7 @@ plt.show()
 
 As expected, the resulting 3D plot shows the solution space of our three objectives (in this case, *Mortality*, *Morbidity* and *OpEx costs*). In some cases, 3D plots can be useful for identifying interesting clusters of the objective space. In other cases, however, it may be difficult to distinguish meaningful trends. If you don't take care, 3D plots may even obfuscate important information.
 
-![3D plotting python]({{site.baseurl}}/images/rotav_OE_3d.webp)
+![3D plotting python]({{site.baseurl}}/images/rotav_OE_3d.jpg)
 
 ### Visualization 3: Parallel Coordinate Plots
 
@@ -185,7 +185,7 @@ plt.show()
 
 Each line represents a possible policy option, with lines closest to the bottom of the y-axis being performing more favorably in terms of the decision maker’s objectives. The result of the previous code resembles the following:
 
-![parallel axis plot]({{site.baseurl}}/images/rotav_OE_paraplot.webp)
+![parallel axis plot]({{site.baseurl}}/images/rotav_OE_paraplot.jpg)
 
 ### Visualization 4: Feature Scoring
 A final visualization strategy relevant to the open exploration process is known as [feature scoring](https://emaworkbench.readthedocs.io/en/latest/ema_documentation/analysis/feature_scoring.html#module-ema_workbench.analysis.feature_scoring). Feature scoring is a method for testing the effect that different regressors have on a target variable. It is a simple first pass function to help understand the data and to assist with feature selection.
@@ -207,7 +207,7 @@ plt.show()
 
 The resulting heatmap shows features that have relatively higher/lower levels of influence on our five objectives. Here for instance, the number of wells constructed (i.e. *Well construction*) has a big effect on the Capital Expenditure outcome (i.e. *CapEx*).
 
-![feature scoring]({{site.baseurl}}/images/rotav_OE_fs.webp)
+![feature scoring]({{site.baseurl}}/images/rotav_OE_fs.jpg)
 
 ## Visualizing Open Exploration - Conclusion
 {: .no_toc}

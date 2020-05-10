@@ -2,7 +2,7 @@
 layout: disease
 title: Dengue Fever
 description: a summary sheet about dengue Transmission
-img: dengue.webp
+img: dengue.jpg
 fig-caption: dengue spread
 
 
@@ -37,4 +37,4 @@ references:  ""
 dengue fever is a mosquito-borne tropical disease caused by the dengue virus. Symptoms typically begin three to fourteen days after infection. This may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin rash.
 
 <br>
-![Aedes mosquito](/assets/img/aedes.webp)
+![Aedes mosquito](/assets/img/aedes.jpg)

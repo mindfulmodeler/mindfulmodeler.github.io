@@ -13,7 +13,7 @@ tags:
 categories:
     - tutorial
 header: 
-    image_fullwidth: "/hypoth_testing_cover.webp"
+    image_fullwidth: "/hypoth_testing_cover.jpg"
 comments: true
 ---
 
@@ -47,7 +47,7 @@ A second shortcoming is that the resulting statement has almost no *practical* m
 
 
 
-![hypothesis testing pitfalls]({{site.baseurl}}/images/hypoth_testing_cartoon.webp)
+![hypothesis testing pitfalls]({{site.baseurl}}/images/hypoth_testing_cartoon.jpg)
 
 https://xkcd.com/archive/
 

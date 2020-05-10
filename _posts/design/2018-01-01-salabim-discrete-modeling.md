@@ -15,7 +15,7 @@ tags:
 categories:
     - modeling
 image:
-    title: /water-well-collection.webp
+    title: /water-well-collection.jpg
 header: no
 show_meta: true
 comments: true
@@ -33,9 +33,9 @@ Figuring out the best way to route components through a system is a complicated 
 A model helps to perform "what if?" analysis, where questions about the system are posed and tested in the simulation, helping decision makers prepare for different future scenarios. Injecting elements of stochasticity help reflect the uncertainty inherent in the real world and can provide a better understanding of the system. **Discrete event simulation** in particular, is well-suited to problems where components change at different points in time as a result of events. Between two consecutive events, the system is assumed to be steady-state, so the simulation effectively skips from one event to the following event. This is different than **continuous simulation**, where the dynamics of the system are tracked over time uninterrupted.
 
 
-![discrete vs continuous model]({{site.baseurl}}/images/discrete-vs-continuous.webp)
+![discrete vs continuous model]({{site.baseurl}}/images/discrete-vs-continuous.jpg)
 
-<!-- Markdown-Example for posts ![discrete vs continuous model]({{ site.urlimg }}discrete-cont.webp) -->
+<!-- Markdown-Example for posts ![discrete vs continuous model]({{ site.urlimg }}discrete-cont.jpg) -->
 
 
 ## Salabim Tutorial

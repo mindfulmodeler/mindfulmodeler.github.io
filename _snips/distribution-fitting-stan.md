@@ -12,7 +12,7 @@ tags:
 categories:
     - code help
 header:
-    image_fullwidth: '/stan_title.webp'
+    image_fullwidth: '/stan_title.jpg'
 ---
 With the pystan package, you can either import a .stan file or you can define your stan model directly in the script. The three mandatory parts of the stan model definition are: (1) data; (2) parameters; and (3) model. 
 
@@ -83,4 +83,4 @@ For anyone new to Stan or Bayesian statistics, understanding how well the model 
 
 If the fit appears to be poor because of these indicators, it is a sign that different priors should be chosen or that a greater number of samples is needed. 
 
-<!-- ![l-moment smoothing]({{site.baseurl}}/images/histograms.webp) -->
+<!-- ![l-moment smoothing]({{site.baseurl}}/images/histograms.jpg) -->

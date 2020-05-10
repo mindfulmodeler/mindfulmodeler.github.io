@@ -6,29 +6,29 @@ title: "python3"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some ideas and features related to Python programming."
 header:
-   image_fullwidth: "/unsplasB.webp"
+   image_fullwidth: "/unsplasB.jpg"
 permalink: "/python3/"
 
 widget1:
   title: "Rolling Window Function"
   url: '/snips/rolling-window/'
-  image: '/lmoments.webp'
+  image: '/lmoments.jpg'
   text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
 widget2:
   title: "Advanced Plotting in Seaborn"
   url: '/snips/seaborn-plotting/'
   text: 'Python example for creating overlapping histograms.'
-  image: '/hists_title.webp'
+  image: '/hists_title.jpg'
 widget3:
   title: "Distribution Fitting with PyStan"
   url: '/snips/distribution-fitting-stan/'
-  image: '/pystan_code.webp'
+  image: '/pystan_code.jpg'
   text: 'Applying the Stan python package for distribution fitting.'
 widget4:
-  title: "Automatically convert images to .webp format"
+  title: "Automatically convert images to .jpg format"
   url: '/snips/png-to-webp/'
-  image: '/great-nonfiction-books.webp'
-  text: 'A useful powershell script for optimizing entire directories of images into .webp format.'
+  image: '/great-nonfiction-books.jpg'
+  text: 'A useful powershell script for optimizing entire directories of images into .jpg format.'
 ---
 
 <div class="row t60">
@@ -61,7 +61,7 @@ widget4:
 </div>
 
 <!-- 
-![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp)
+![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.jpg)
 
 
 <div class="row">

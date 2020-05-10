@@ -5,7 +5,7 @@ subheadline: "CV"
 teaser: "The cv is a work in progress..."
 permalink: "/cv/"
 header:
-   image_fullwidth: "header_roadmap_2.webp"
+   image_fullwidth: "header_roadmap_2.jpg"
 ---
 
 ## Professional Profile
@@ -97,7 +97,7 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.urlimg }}header_homepage_13.webp" alt="">
+<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 
@@ -108,7 +108,7 @@ There are several types of images you can define via front matter. If you want t
 
 ~~~
 image:
-    title: image.webp
+    title: image.jpg
 ~~~
 
 

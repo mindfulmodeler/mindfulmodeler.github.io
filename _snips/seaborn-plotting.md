@@ -10,7 +10,7 @@ tags:
 categories:
     - code help
 header:
-    image_fullwidth: '/hists_title.webp'
+    image_fullwidth: '/hists_title.jpg'
 ---
 
 {% highlight ruby %}
@@ -37,7 +37,7 @@ for mn in range(1,13):
     
 fig.suptitle('Histograms of each month', size=16, y=1.04)
 
-fig.savefig(f'histograms.webp')
+fig.savefig(f'histograms.jpg')
 {% endhighlight %}
 
-![l-moment smoothing]({{site.baseurl}}/images/histograms.webp)
+![l-moment smoothing]({{site.baseurl}}/images/histograms.jpg)

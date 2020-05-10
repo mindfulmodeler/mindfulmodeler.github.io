@@ -14,8 +14,8 @@ tags:
 categories:
     - policy
 image:
-    thumb: /gannonuniversity.webp
-    title: /gannonuniversity.webp
+    thumb: /gannonuniversity.jpg
+    title: /gannonuniversity.jpg
 comments: true
 ---
 

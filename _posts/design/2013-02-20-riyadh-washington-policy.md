@@ -10,13 +10,13 @@ tags:
     - policy analysis
     - article
 header:
-   image_fullwidth: "/sa.webp"
+   image_fullwidth: "/sa.jpg"
 comments: true
 ---
 Over all of the pervasive Middle East themes that make news in the United States – the Israeli-Palestinian conflict, petroleum pricing, stopping terrorist attacks – there are two topics that are dominating today’s media headlines: the crisis in Syria and nuclear discussions with Iran. To the American people, the issues are separate: one is a humanitarian catastrophe and the other, a chance to finally reconcile a protracted security challenge. It is critically important that American policymakers do not make the same superficial distinction, however, if they hope to produce effective outcomes in the ongoing negotiations. In particular, special attention must be paid to fully understanding the geostrategic goals of Saudi Arabia, since it is the country that is in the greatest position to leverage American interests in the region.
 
 
-![Saudi Arabia Foreign Policy](../images/sa.webp)
+![Saudi Arabia Foreign Policy](../images/sa.jpg)
 
 
 For the past 60 years, Saudi Arabia has been one of the United States’ most significant economic and political partners in the Middle East, helping to control extremism, undermine Soviet expansionism, and of course, contribute vast quantities of oil to world markets. The reality of Saudi sectarianism has always posed a unique relationship with the United States, one that is highly profitable, if uncomfortable at times. American diplomats have had to balance their declarations of promoting freedom and democracy while simultaneously aligning themselves with the hugely repressive Saudi government. Though the United States and Saudi Arabia have the same goals- bringing down al-Assad and stopping Iran’s nuclear ambitions- each nation’s priorities are vastly different. While Washington resolutely focuses on hunting global terrorism, the Al Saud family fixates on stopping the spread of Iranian influence at all costs.

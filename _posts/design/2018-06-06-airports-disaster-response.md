@@ -14,7 +14,7 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/airports.webp"
+    image_fullwidth: "/airports.jpg"
 show_meta: true
 comments: true
 ---

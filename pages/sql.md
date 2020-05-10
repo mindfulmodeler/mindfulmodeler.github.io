@@ -5,23 +5,23 @@ title: "SQL"
 subheadline: "Scripts &amp; Code Tips"
 teaser: "Here are some database design ideas and features for using SQL."
 header:
-   image_fullwidth: "/header_roadmap_3.webp"
+   image_fullwidth: "/header_roadmap_3.jpg"
 permalink: "/sql/"
 
 widget1:
   title: "Creating a New PostgreSQL database"
   url: '/snips/postgres-healthcare-database/'
-  image:  '/diseaseUML.webp'
+  image:  '/diseaseUML.jpg'
   text: 'Simple steps to creating a new database in postgreSQL. '
 # widget2:
 #   title: "Django Foreign Key Mapping"
 #   url: '/tutorial/'
 #   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-#   image: images/movingwindow2.webp
+#   image: images/movingwindow2.jpg
 # widget3:
 #   title: "Calculating L-Moments"
 #   url: '/tutorial/'
-#   image: http://localhost:4000/home/images/hypoth_testing_cover.webp
+#   image: http://localhost:4000/home/images/hypoth_testing_cover.jpg
 #   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 
 ---
@@ -58,7 +58,7 @@ widget1:
 
 Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here.
 
-![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.webp) -->
+![exploratory versus predictive modeling]({{site.baseurl}}/images/public-health.jpg) -->
 <!-- <p>{{ snip.content | markdownify }}</p> -->
 
 <!-- <div class="row">
