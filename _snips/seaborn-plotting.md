@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: Overlapping histograms
 title:  "Advanced Plotting in Seaborn"
-teaser: "Overlapping histograms"
+teaser: "An example of generating multiple/overlaying subplots using Seaborn in python "
 breadcrumb: true
 tags:
     - python

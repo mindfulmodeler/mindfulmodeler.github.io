@@ -10,6 +10,7 @@ tags:
     - health database
     - data analytics
     - article
+    - SQL
 categories:
     - tutorial
 header:

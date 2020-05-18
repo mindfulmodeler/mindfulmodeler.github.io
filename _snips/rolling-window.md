@@ -9,6 +9,8 @@ teaser: An example moving or rolling window function that can be used for statis
 fig-caption:
 tags: [statistics, code help, python]
 categories: [Tutorial]
+show_meta: true
+comments: true
 ---
 
 The following is a python function for a moving window that can be used for a variety of statistical operations. 
@@ -88,3 +90,7 @@ plt.imshow(moving_window, origin = "lower left" )
 plt.title('Smoothed using {} '.format(window_shape)+' window')
 {% endhighlight %}
 
+
+## You might also like:
+{: .t60 }
+{% include list-posts tag='python' %}

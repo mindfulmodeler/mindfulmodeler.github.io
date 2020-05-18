@@ -37,7 +37,7 @@ In this tutorial, we'll be building an infectious diesease web application from 
 
 Also, please note that I'm writing this from the perspective of a Windows 10 user. Other OS's will have slightly different commands. 
 
-![get started in django quickly]({{site.baseurl}}/images/lets-do-this.jpg {{site.baseurl}}/images/lets-do-this.png)
+![get started in django quickly]({{site.baseurl}}/images/lets-do-this.jpg) 
 
 # Create a New Conda Virtual Environment
 Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so. 

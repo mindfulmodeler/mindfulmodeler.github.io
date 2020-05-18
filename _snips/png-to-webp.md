@@ -3,19 +3,21 @@ layout: page-fullwidth
 breadcrumb: true
 header:
     image_fullwidth: '/great-nonfiction-books-title.jpg'
-title: Automatically convert images to .jpg format
+title: Automatically convert images to .webp format
 subheadline: Improve your website's SEO
-teaser: A useful powershell script for optimizing entire directories of images into .jpg format. 
+teaser: A useful powershell script for optimizing entire directories of images into .webp format. 
 fig-caption:
 tags: [search engine optimization, code help, jekyll, optimization]
 categories: [Tutorial]
+show_meta: true
+comments: true
 ---
 
-This is a quick post on how you can easily convert a batch of images into .jpg format, from you command line. Webp is an image format promoted by Google for making images load faster (and thus improving your SEO ranking). There are online tools that will do this file conversion for you for free in your browser - just drag, drop, and download - so why bother with the command line at all? 
+This is a quick post on how you can easily convert a batch of images into .webp format from your command line. Webp is an image format promoted by Google for making images load faster (and thus improving your SEO ranking). There are online tools that will do this file conversion for you for free in your browser - just drag, drop, and download - so why bother with the command line at all? 
 
-Many of these free conversion tools do indeed work - you'll see a "Success! Image converted to .jpg!" popup and then pat yourself on the back for avoiding a lot of unncessary work (at least that's what I did when I first started out). But then when you actually go to use that image - for instance in your WordPress or Jekyll blog - you'll be pulling your hair out wondering why your shiny new .jpg images aren't actually rendering in the browser! I can't speak to exactly why some of these free conversion tools don't work exactly right - but I can say that skipping them altogether in favor of the script below has ended up saving me a lot of headaches. 
+Many of these free conversion tools do indeed work - you'll see a "Success! Image converted to .webp!" popup and then pat yourself on the back for avoiding a lot of unncessary work (at least that's what I did when I first started out). But then when you actually go to use that image - for instance in your WordPress or Jekyll blog - you'll be pulling your hair out wondering why your shiny new .webp images aren't actually rendering in the browser! I can't speak to exactly why some of these free conversion tools don't work exactly right - but I can say that skipping them altogether in favor of the script below has ended up saving me a lot of headaches. 
 
-# Convert a directory of .jpg images to .jpg
+# Convert a directory of .jpg images to .webp
 As an example, here is a directory containing front cover images of some of my favorite nonfiction books. 
 
 ![great nonfiction books]({{site.baseurl}}/images/great-nonfiction-books.jpg)
@@ -54,8 +56,8 @@ $images = Get-ChildItem $loc
 
 # loop through every images
 foreach ($img in $images) {
-  # output file will have .jpg extension instead of old extension
-  $outputName = $img.DirectoryName + "\" + $img.BaseName + ".jpg"
+  # output file will have .webp extension instead of old extension
+  $outputName = $img.DirectoryName + "\" + $img.BaseName + ".webp"
 
   # copy-paste the path to where you extracted the cwebp program 
   C:\Desktop\libwebp-0.4.1-windows-x64\bin\cwebp.exe $img.FullName -o $outputName

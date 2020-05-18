@@ -37,6 +37,22 @@ widget6:
   url: '/tutorial/multivariate-linear-regression-uganda/'
   image: '/multi-linreg-uganda-maps.jpg'
   text: 'Applying single and multivariate linear regression using python to a global policy problem.'
+widget7:
+  title: "Exploratory Policy Modeling for Flood Management"
+  url: '/modeling/river-ijssel-policy/'
+  image: '/nl.jpg'
+  text: 'Using advanced exploratory modeling techniques to provide policy support on a water management case study.'
+widget8:
+  title: "Understanding common probability distributions"
+  url: '/tutorial/probability-distributions/'
+  image: '/distribution-main.jpg'
+  text: 'An introduction to common probability distributions and their visualization in Python using Seaborn.'
+widget9:
+  title: "Creating a Web Application for Infectious Disease Modeling"
+  url: '/tutorial/django-infectious-disease-app/'
+  image: '/covid-unsplash.jpg'
+  text: 'Django makes it easy to create a seemingly complex web application with minimal setup.'
+
 #
 # Use the call for action to show a button on the frontpage
 #

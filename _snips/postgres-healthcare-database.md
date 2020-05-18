@@ -3,7 +3,7 @@ layout: page
 # sidebar: left
 subheadline: 
 title: "Making a database with postgres"
-teaser: "Basic shell commands for postgres."
+teaser: "Basic shell commands for starting a postgres database in Windows."
 breadcrumb: true
 tags:
     - postgres
@@ -36,6 +36,6 @@ CREATE DATABASE healthdb;
 
 
 
-## Other Modeling Posts
+## You might also like:
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='SQL' %}

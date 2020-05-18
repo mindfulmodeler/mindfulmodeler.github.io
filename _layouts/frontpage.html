@@ -100,7 +100,7 @@ format: frontpage
 
 
 {% comment %}
-* SECOND ROW OF 3 WIDGETS
+* SECOND and third ROW OF 3 WIDGETS
 
 {% endcomment %}
 
@@ -118,6 +118,23 @@ format: frontpage
     {% endif %}
     
 </div><!-- /.row -->
+<div class="row t60">
+	{% if page.widget7.image or page.widget7.video or page.widget7.title %}
+		{% include _frontpage-widget.html widget=page.widget7 %}
+    {% endif %}   
+
+	{% if page.widget8.image or page.widget8.video or page.widget8.title %}
+		{% include _frontpage-widget.html widget=page.widget8 %}
+	{% endif %}
+
+	{% if page.widget9.image or page.widget9.video or page.widget9.title %}
+		{% include _frontpage-widget.html widget=page.widget9 %}
+    {% endif %}
+    
+</div><!-- /.row -->
+
+
+
 
 
 
