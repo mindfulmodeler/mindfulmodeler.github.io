@@ -41,7 +41,7 @@ Also, please note that I'm writing this from the perspective of a Windows 10 use
 ![get started in django quickly]({{site.baseurl}}/images/lets-do-this.jpg) 
 
 # Create a New Conda Virtual Environment
-Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so. 
+Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so (I have a post on [Getting Started With Python ASAP]({{site.baseurl}}/snips/easy-peasy-conda-jupyter-setup/) for more details). 
 
 ![open new anaconda prompt]({{site.baseurl}}/images/new-anaconda-prompt.jpg){: .shadow}
 
@@ -56,7 +56,7 @@ This synatx tells conda that we want to create a new environment with the name *
 After creating an environment, the next step is to install all the packages you want inside of that environment. You can do that in two separate steps, but it's often nice to create the environment with it's packages all in one go:
 
 {% highlight ruby %}
-conda create --name djangoenv pandas numpy django
+conda create --name djangoenv pandas numpy django psycopg2
 {% endhighlight %}
 
 ![activate new conda environment]({{site.baseurl}}/images/activate-new-conda-env.jpg)
@@ -68,11 +68,11 @@ And then we can activate the newly created environment as the instructions tell 
 conda activate djangoenv
 {% endhighlight %}
 
-If there are any additional packages we forgot to install earlier, it's easy enough to do using `conda install`.
+If there are any additional packages we forgot to install earlier, it's easy enough to do using `conda install <insert-packagename>`.
 
-{% highlight ruby %}
+<!-- {% highlight ruby %}
 conda install psycopg2
-{% endhighlight %}
+{% endhighlight %} -->
 
 We also need to add the package [graphene-django](https://docs.graphene-python.org/projects/django/en/latest/). In this case, however, we also need to add a `-c conda-forge` prefix before the package name, which indicates that we're getting it from an alternative source. This happens sometimes, as a subset of packages (like graphene-django) aren't available via the default anaconda channel.
 
@@ -86,24 +86,23 @@ The [anaconda documentation](https://docs.conda.io/projects/conda/en/latest/user
 
 
 ## Creating a Django project
-I'm going to create a new django project by loosely following the official tutorial. You can follow along with this example healthcare site to create your own web application. 
+I'm going to create a new django project by loosely following the official tutorial. You can checkout the [official Django documentation](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) or follow along with this condensed example to create your own web application. 
 
 {% highlight ruby %}
-django-admin startproject healthsite    #1. 
+#1. Start a new project called "healthsite"
+django-admin startproject healthsite     
 
-cd healthsite   #2. 
+#2. Change directory into the newly created project
+cd healthsite   
 
-python manage.py startapp diseaseapp    #3. 
+#3. Inside of this project, create a new app "diseaseapp"
+python manage.py startapp diseaseapp  
 
-python manage.py runserver  #4. 
+#4. Runserver in order to verify that the setup worked!
+python manage.py runserver  
 {% endhighlight %}
 
-A summary of these steps:
-
-1. Create my new project 'healthsite' which will contain the infectious disease-related apps
-2. Change directory into the newly created project
-3. Create a new app inside of the project for tracking infectious diseases
-4. Runserver in order to verify that the setup worked!
+In just four steps we have created a new project called 'healthsite' which will contain the infectious disease-related apps. Inside the new project, we've also created an app called 'diseaseapp' that we'll use for tracking infectious diseases. 
 
 From here, we can navigate to the localhost (`http://127.0.0.1:8000/`) in our browser and verify that the setup worked as expected. If so, we'll see this page:
 
