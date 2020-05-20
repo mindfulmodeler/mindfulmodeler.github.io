@@ -7,8 +7,12 @@ title: Moving Window Function
 subheadline: Statistical smoothing in Python
 teaser: An example moving or rolling window function that can be used for statistical smoothing operations.
 fig-caption:
-tags: [statistics, code help, python]
-categories: [Tutorial]
+tags:
+    - python
+    - seaborn
+    - statistics
+categories:
+    - code help
 show_meta: true
 comments: true
 ---

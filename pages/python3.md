@@ -8,12 +8,11 @@ teaser: "Here are some ideas and features related to Python programming."
 header:
    image_fullwidth: "/unsplasB.jpg"
 permalink: "/python3/"
-
 widget1:
-  title: "Rolling Window Function"
-  url: '/snips/rolling-window/'
-  image: '/lmoments.jpg'
-  text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
+  title: "Getting Set Up in Python ASAP"
+  url: '/snips/easy-peasy-conda-jupyter-setup/'
+  image: '/python-conda-setup-title.jpg'
+  text: 'A condensed step-by-step guide for installing Python + Anaconda in Windows.'
 widget2:
   title: "Advanced Plotting in Seaborn"
   url: '/snips/seaborn-plotting/'
@@ -25,10 +24,15 @@ widget3:
   image: '/pystan_code.jpg'
   text: 'Applying the Stan python package for distribution fitting.'
 widget4:
-  title: "Automatically convert images to .jpg format"
+  title: "Automatically convert images to webp format"
   url: '/snips/png-to-webp/'
   image: '/great-nonfiction-books.jpg'
-  text: 'A useful powershell script for optimizing entire directories of images into .jpg format.'
+  text: 'A useful powershell script for optimizing entire directories of images into .webp format.'
+widget5:
+  title: "Rolling Window Function"
+  url: '/snips/rolling-window/'
+  image: '/lmoments.jpg'
+  text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
 ---
 
 <div class="row t60">

@@ -10,6 +10,7 @@ tags:
     - infectious disease
     - health
     - article
+    - python
 categories:
     - tutorial
 header:
