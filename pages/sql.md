@@ -13,11 +13,11 @@ widget1:
   url: '/snips/postgres-healthcare-database/'
   image:  '/diseaseUML.jpg'
   text: 'Simple steps to creating a new database in postgreSQL. '
-# widget2:
-#   title: "Django Foreign Key Mapping"
-#   url: '/tutorial/'
-#   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
-#   image: images/movingwindow2.jpg
+widget2:
+  title: "Database Indexing and Clustering"
+  url: '/snips/postgres-indexing-clustering/'
+  text: 'Introduction to SQL indexing and clustering '
+  image: '/unsplash-db.jpg'
 # widget3:
 #   title: "Calculating L-Moments"
 #   url: '/tutorial/'

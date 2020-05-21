@@ -15,6 +15,7 @@ tags:
     - global public health
     - writing sample
     - article
+    - wash
 # image:
 #     title: /haiti.jpg
 header:

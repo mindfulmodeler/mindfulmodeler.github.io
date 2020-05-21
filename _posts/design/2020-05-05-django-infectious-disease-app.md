@@ -11,6 +11,7 @@ tags:
     - health
     - article
     - python
+    - SQL
 categories:
     - tutorial
 header:
@@ -20,7 +21,7 @@ comments: true
 ---
 In this tutorial, we'll be building an infectious diesease web application from scratch. Doing this in the python framework Django is advantageous for many reasons: 
   1. Python is a powerful, easy-to-learn language. If you're new to programming, Python is an awesome general-purpose language that can allow you do everything from machine learning and data science to building custom web applications. 
-  2. The combination of Python's enormous StackOverflow support community and Django's extensive documentation means you'll be able to google answers to virtually any problem you run into.
+  2. The combination of Python's enormous [StackOverflow](https://stackoverflow.com/questions/tagged/django) support community and Django's extensive documentation means you'll be able to google answers to virtually any problem you run into.
   3. Anything you read about Django will mention its "parts included" or "out-of-the-box functionality". What this means for you is that you can start seemingly small projects that are going to include cool features like security and authorization, and over time you're project will scale really well. 
 
 <div class="panel radius" markdown="1">
@@ -34,18 +35,18 @@ In this tutorial, we'll be building an infectious diesease web application from 
 1. <span style="color:hotpink">**Anaconda**</span>. Not only is conda a user-friendly package manager, it also makes it very easy to create and work with virtual environments.  
 2. <span style="color:hotpink">**PostgreSQL**</span>. Some people prefer to stick with the lightweight SQLite for simple web applications. I prefer to start with postgres here because of its powerful ability to scale out projects over time and for its useful geospatial extensions. 
 3. <span style="color:hotpink">**Django**</span>. While more heavyweight than alternative python frameworks like Flask, I feel more comfortable with Django's robustness and supporting tools for complex tasks. 
-4. <span style="color:hotpink">**GraphQL**</span>. Most Django tutorials will naturally lead you into creating a REST API Framework, but this tutorial provides an alternative GraphQL endpoint using the django_graphene package. 
+4. <span style="color:hotpink">**GraphQL**</span>. Most Django tutorials will naturally lead you into creating a REST API Framework, but this tutorial provides an alternative GraphQL endpoint using the `django_graphene` package. 
 
 Also, please note that I'm writing this from the perspective of a Windows 10 user. Other OS's will have slightly different commands. 
 
 ![get started in django quickly]({{site.baseurl}}/images/lets-do-this.jpg) 
 
 # Create a New Conda Virtual Environment
-Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so (I have a post on [Getting Started With Python ASAP]({{site.baseurl}}/snips/easy-peasy-conda-jupyter-setup/) for more details). 
+Begin by opening a new Anaconda Prompt window. If you haven't already installed anaconda on your local machine, now is a good time to do so. You might also check out my post on [Getting Started With Python ASAP]({{site.baseurl}}/snips/easy-peasy-conda-jupyter-setup/) for a pain-free guide to setting up your environment.
 
 ![open new anaconda prompt]({{site.baseurl}}/images/new-anaconda-prompt.jpg){: .shadow}
 
-Inside the new prompt, you'll see your current environment and working directory, something like: ```(base) C:\Users\mindfulmodeler```. The most basic way of creating a new conda environment is by following this syntax:
+Inside the new prompt, you'll see a blinking cursor along with your current environment and working directory, something like: **(base) C:\Users\mindfulmodeler**. To create a new conda environment, type the following command into your Anaconda prompt: 
 
 {% highlight ruby %}
 conda create --name djangoenv
@@ -68,11 +69,8 @@ And then we can activate the newly created environment as the instructions tell 
 conda activate djangoenv
 {% endhighlight %}
 
+### Installing packages with conda
 If there are any additional packages we forgot to install earlier, it's easy enough to do using `conda install <insert-packagename>`.
-
-<!-- {% highlight ruby %}
-conda install psycopg2
-{% endhighlight %} -->
 
 We also need to add the package [graphene-django](https://docs.graphene-python.org/projects/django/en/latest/). In this case, however, we also need to add a `-c conda-forge` prefix before the package name, which indicates that we're getting it from an alternative source. This happens sometimes, as a subset of packages (like graphene-django) aren't available via the default anaconda channel.
 
@@ -122,7 +120,7 @@ def index(request):
     return HttpResponse("Welcome to the disease app index.")
 {% endhighlight %}
 
-Now if you navigate to `http://127.0.0.1:8000/index` and you should see a page with the text "Welcome to the disease app index". Clearly, this is the most minimal possible view we could have created - Django is capable of so much more. If you want to start diving into all the functionalities available in Django views, I recommend checking out [this page]().  
+Now if you navigate to `http://127.0.0.1:8000/index` and you should see a page with the text "Welcome to the disease app index". Clearly, this is the most minimal possible view we could have created - Django is capable of so much more. If you want to start diving into all the functionalities available in Django views, I recommend checking out [the Django views documentation](https://docs.djangoproject.com/en/3.0/topics/http/views/) for all of the features available.  
 
 ### 2. URLs
 Whenever you create a view in Django, you'll also need to configure a URL. You can easily do this using the `path()` function. For instance, a url configuration for AboutMe page might look like: `path('about/', views.about)`. This example has two main parts: (1) the url request to 'about/' and the view that it is routed to. 

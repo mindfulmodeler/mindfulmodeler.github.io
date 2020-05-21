@@ -33,6 +33,7 @@ widget5:
   url: '/snips/rolling-window/'
   image: '/lmoments.jpg'
   text: 'An example moving or rolling window function that can be used for statistical smoothing operations.'
+
 ---
 
 <div class="row t60">
