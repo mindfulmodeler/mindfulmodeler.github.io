@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: left
-# subheadline: Single and multivariate linear regression
+subheadline: Data science to improve humanitarian aid delivery
 title:  "Airports in Disaster Response"
 teaser: "This project focuses on using existing, publicly available databases to facilitate decisions regarding prioritization of airport preparedness resources."
 tags:

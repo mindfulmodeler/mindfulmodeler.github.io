@@ -52,6 +52,21 @@ widget9:
   url: '/tutorial/django-infectious-disease-app/'
   image: '/covid-unsplash.jpg'
   text: 'Django makes it easy to create a seemingly complex web application with minimal setup.'
+widget10:
+  title: "Easy Peasy Python for Beginners"
+  url: '/snips/easy-peasy-conda-jupyter-setup/'
+  image: '/python-conda-setup-title.jpg'
+  text: 'A condensed step-by-step guide for getting started with Python + Anaconda in Windows.'
+widget11:
+  title: "Rethinking the Bradley Classification system"
+  url: '/policy/waterborne-disease-classification/'
+  image: '/Gross_Fdiagram.jpg'
+  text: 'If you work on water or sanitation projects, chances are that you are familiar with the term "waterborne diseases"'
+widget12:
+  title: "Open Exploration in EMA Workbench - Visualization Examples"
+  url: '/tutorial/ema-workbench-visual/'
+  image: '/rotav_OE_paraplot.jpg'
+  text: 'Visualization tips for open exploration of model objectives using EMA workbench.'
 
 #
 # Use the call for action to show a button on the frontpage

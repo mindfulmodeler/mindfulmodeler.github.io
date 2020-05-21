@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-subheadline: Overlapping histograms
+subheadline: Creating overlapping histograms
 title:  "Advanced Plotting in Seaborn"
 teaser: "An example of generating multiple/overlaying subplots using Seaborn in python "
 breadcrumb: true
@@ -41,3 +41,7 @@ fig.savefig(f'histograms.jpg')
 {% endhighlight %}
 
 ![l-moment smoothing]({{site.baseurl}}/images/histograms.jpg)
+
+## You might also like:
+{: .t60 }
+{% include list-posts tag='python' %}

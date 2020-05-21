@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 breadcrumb: true
-subheadline: Distribution Fitting with PyStan
+subheadline: An Example Fitting with PyStan
 title:  "Distribution Fitting with PyStan"
 teaser: "Applying the Stan python package for distribution fitting"
 breadcrumb: true

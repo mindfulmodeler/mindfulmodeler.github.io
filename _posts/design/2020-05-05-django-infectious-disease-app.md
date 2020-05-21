@@ -1,7 +1,7 @@
 ---
 layout: page
 # sidebar: left
-subheadline: 
+subheadline: Get started with Django 
 title: "Creating a Web Application for Infectious Disease Modeling"
 teaser: "Django makes it easy to create a seemingly complex web application with minimal setup."
 breadcrumb: true

@@ -133,7 +133,20 @@ format: frontpage
     
 </div><!-- /.row -->
 
+<div class="row t60">
+	{% if page.widget10.image or page.widget10.video or page.widget10.title %}
+		{% include _frontpage-widget.html widget=page.widget10 %}
+    {% endif %}   
 
+	{% if page.widget11.image or page.widget11.video or page.widget11.title %}
+		{% include _frontpage-widget.html widget=page.widget11 %}
+	{% endif %}
+
+	{% if page.widget12.image or page.widget12.video or page.widget12.title %}
+		{% include _frontpage-widget.html widget=page.widget12 %}
+    {% endif %}
+    
+</div><!-- /.row -->
 
 
 

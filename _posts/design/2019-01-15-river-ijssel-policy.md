@@ -1,9 +1,9 @@
 ---
 layout: page
 sidebar: left
-# subheadline: Single and multivariate linear regression
+subheadline: When water management goals conflict
 title:  "Exploratory Policy Modeling for Flood Management"
-teaser: "This project uses advanced exploratory modeling techniques to provide policy support on a water management case study."
+teaser: "Using advanced exploratory modeling techniques to provide policy support on a water management case study."
 tags:
     - policy analysis with python
     - water management

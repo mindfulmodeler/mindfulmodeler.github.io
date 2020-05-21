@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: left
-subheadline: Call for more useful multi-disease terminology to replace the Bradley Classification system
+subheadline: Call for more practical terminology when talking about "waterborne diseases"
 title:  "Rethinking the Bradley Classification system"
 teaser: If you work on water or sanitation projects, chances are that you are familiar with the term "waterborne diseases"
 tags:

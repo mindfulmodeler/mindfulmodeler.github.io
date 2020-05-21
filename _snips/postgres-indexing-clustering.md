@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: left
-subheadline: 
+subheadline: Increasing database performance
 title: "Database Indexing and Clustering"
 teaser: "Introduction to SQL indexing and clustering"
 breadcrumb: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 # sidebar: left
-subheadline: 
+subheadline: Condensed guide to creating a new database 
 title: "Making a database with postgres"
 teaser: "Basic shell commands for starting a postgres database in Windows."
 breadcrumb: true
