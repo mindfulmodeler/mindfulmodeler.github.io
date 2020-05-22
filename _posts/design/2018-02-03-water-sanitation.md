@@ -15,7 +15,9 @@ tags:
 categories:
     - policy
 header:
-    image_fullwidth: "/africa.jpg"
+    image_fullwidth: "/africa.png"
+image:
+    thumb: /africa_thumb.png
 show_meta: true
 comments: true
 ---

@@ -16,7 +16,7 @@ categories:
 header:
     image_fullwidth: "/db.jpg"
 image:
-    thumb: /database-icon1.jpg
+    thumb: /db_thumb.jpg
 show_meta: true
 comments: true
 ---

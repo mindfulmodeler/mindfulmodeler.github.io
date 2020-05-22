@@ -16,6 +16,8 @@ categories:
 header:
     image: "/exp.jpg"
     background-color:  "white"
+image:
+    thumb: /exp.jpg
 show_meta: true
 comments: true
 ---

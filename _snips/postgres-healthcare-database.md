@@ -15,6 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/db-unsplash.jpg"
+image:
+    thumb: "/database-icon1.png"
 show_meta: true
 comments: true
 ---

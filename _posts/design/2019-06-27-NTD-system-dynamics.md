@@ -14,6 +14,8 @@ categories:
     - modeling
 header:
     image_fullwidth: "/ascaris_sfd.jpg"
+image:
+    thumb: /ascaris_thumb.jpg
 show_meta: true
 comments: true
 ---

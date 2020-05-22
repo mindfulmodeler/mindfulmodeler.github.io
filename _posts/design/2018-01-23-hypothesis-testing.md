@@ -14,7 +14,10 @@ categories:
     - tutorial
 header: 
     image_fullwidth: "/hypoth_testing_cover.jpg"
+image:
+    thumb: /hypoth_testing_cover_thumb.jpg
 comments: true
+meta: true
 ---
 
 <div class="panel radius" markdown="1">

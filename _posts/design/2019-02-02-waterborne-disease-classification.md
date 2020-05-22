@@ -15,6 +15,8 @@ categories:
     - policy
 header:
     image_fullwidth: "/Gross_Fdiagram_title.jpg" #"/ijssel.jpg"
+image:
+    thumb: "/handwashing_thumb.jpg"
 show_meta: true
 comments: true
 ---

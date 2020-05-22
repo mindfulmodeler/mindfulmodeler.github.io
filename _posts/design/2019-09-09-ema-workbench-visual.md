@@ -17,6 +17,8 @@ header:
     image_fullwidth: "/nl-water.jpg"
 image:
     title: /rotav_OE_title.jpg
+image:
+    thumb: /rotav_OE_3d_thumb.jpg
 show_meta: true
 comments: true
 ---

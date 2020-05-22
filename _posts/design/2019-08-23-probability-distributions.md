@@ -15,6 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/distribution-main.jpg"
+image:
+    thumb: /distribution-main_thumb.jpg
 show_meta: true
 comments: true
 ---

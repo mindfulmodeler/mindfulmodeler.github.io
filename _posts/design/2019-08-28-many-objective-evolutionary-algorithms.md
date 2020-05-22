@@ -15,6 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/rob3.jpg"
+image:
+    thumb: /robots_thumb.jpg
 show_meta: true
 comments: true
 ---

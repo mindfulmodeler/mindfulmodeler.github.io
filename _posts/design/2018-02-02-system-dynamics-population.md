@@ -14,6 +14,8 @@ categories:
     - modeling
 header:
    image_fullwidth: "/pop_model2.jpg"
+image:
+    thumb: /pop_model_thumb.jpg
 show_meta: true
 comments: true
 ---

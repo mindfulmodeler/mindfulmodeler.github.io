@@ -16,6 +16,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/multi-linreg-uganda-maps2.jpg"
+image:
+    thumb: /mvlg-pairplot_thumb.jpg
 show_meta: true
 comments: true
 ---

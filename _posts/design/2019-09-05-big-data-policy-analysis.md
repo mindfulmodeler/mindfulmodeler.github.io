@@ -15,6 +15,8 @@ categories:
     - policy
 image:
     title: /divide2.jpg
+image:
+    thumb: /divide2_thumb.jpg
 header: no
 show_meta: true
 comments: true

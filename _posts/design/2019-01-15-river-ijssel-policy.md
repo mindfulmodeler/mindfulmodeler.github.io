@@ -15,6 +15,8 @@ categories:
     - modeling
 header:
     image_fullwidth: "/nl.jpg" #"/ijssel.jpg"
+image:
+    thumb: "/nl_thumb.jpg"
 show_meta: true
 comments: true
 ---

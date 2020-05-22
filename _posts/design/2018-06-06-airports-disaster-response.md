@@ -14,7 +14,9 @@ tags:
 categories:
     - tutorial
 header:
-    image_fullwidth: "/airports.jpg"
+    image_fullwidth: "/airports.png"
+image:
+    thumb: "/airports_thumb.png"
 show_meta: true
 comments: true
 ---

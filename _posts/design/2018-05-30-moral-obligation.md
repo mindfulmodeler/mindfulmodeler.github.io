@@ -15,6 +15,8 @@ categories:
     - policy
 header:
     image_fullwidth: "/poverty.jpg"
+image:
+    thumb: /poverty_thumb.jpg
 show_meta: true
 comments: true
 ---

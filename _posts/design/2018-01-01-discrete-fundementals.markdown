@@ -16,6 +16,8 @@ categories:
     - modeling
 header: 
     image_fullwidth: "/"
+image:
+    thumb: /
 
 breadcrumb: true
 show_meta: true

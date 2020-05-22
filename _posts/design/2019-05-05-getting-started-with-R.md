@@ -15,6 +15,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/R-intro.jpg"
+image:
+    thumb: "/R-intro-barplot3_thumb.jpg"
 show_meta: true
 comments: true
 ---

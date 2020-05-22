@@ -16,6 +16,8 @@ categories:
     - modeling
 image:
     title: /water-well-collection.jpg
+image:
+    thumb: /water-well-collection_thumb.jpg
 header: no
 show_meta: true
 comments: true

@@ -16,6 +16,8 @@ categories:
     - modeling
 header:
     image_fullwidth: "/SD.jpg"
+image:
+    thumb: /SD_thumb.jpg
 show_meta: true
 comments: true
 ---

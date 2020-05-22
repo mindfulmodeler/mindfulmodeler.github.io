@@ -18,6 +18,8 @@ header:
     pattern: pattern_concrete.jpg
     caption: Mapping with GeoPandas in Python
     caption_url: https://unsplash.com/
+image:
+    thumb: /linear_thumb.jpg
 show_meta: true
 comments: true
 ---

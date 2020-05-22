@@ -16,6 +16,8 @@ categories:
     - tutorial
 header:
     image_fullwidth: "/covid-unsplash.jpg"
+image:
+    thumb: /covid-unsplash_thumb.jpg
 show_meta: true
 comments: true
 ---

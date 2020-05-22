@@ -6,7 +6,7 @@ subheadline: Cholera in Haiti
 title:  "Legitimizing Haitian Water Grievances"
 teaser: "Reflection on the United Nation's role in the cholera outbreak in Haiti"
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
-# breadcrumb: true
+breadcrumb: true
 categories:
     - policy
 tags:
@@ -16,10 +16,10 @@ tags:
     - writing sample
     - article
     - wash
-# image:
-#     title: /haiti.jpg
 header:
    image_fullwidth: "/handwashing.jpg"
+image:
+    thumb: /handwashing_thumb.jpg
 author: Shannon M. Gross
 comments: true
 ---
