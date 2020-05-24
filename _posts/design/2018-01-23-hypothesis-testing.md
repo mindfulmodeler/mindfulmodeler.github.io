@@ -9,6 +9,7 @@ tags:
     - hypothesis testing in policymaking
     - data analytics
     - decisionmaking
+    - statistics
     - article
 categories:
     - tutorial
@@ -65,6 +66,7 @@ However, let's assume that the mayor used a well-designed experimental setup and
 This concern gets to the heart of the practical limitation of hypothesis tests. In real applications, the *size* of a statistical significance relationship may often be so much more valuable than a description of whether it *exists* or not. Increasingly, more and more statisticians are becoming uneasy with the routine use of such statistical tests, especially in [medicine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3016704/) and in [science](https://www.npr.org/sections/health-shots/2019/03/20/705191851/statisticians-call-to-arms-reject-significance-and-embrace-uncertainty). Because of these flaws, hypothesis testing may often be better suited to theoretical and academic studies, for instance when trying to highlight the existence of some phenomenon. In many real world applications, focusing on graphical analyses or confidence intervals may potentially be more insightful than relying on hypothesis tests alone.
 
 
-## Other Tutorials
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='tutorial' %}
+{% include list-posts tag='statistics' %}

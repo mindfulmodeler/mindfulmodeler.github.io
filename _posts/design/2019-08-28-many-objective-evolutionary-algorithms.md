@@ -89,6 +89,8 @@ Kasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objecti
 Kollat, J. B., & Reed, P. M. (2005, March). The value of online adaptive search: a performance comparison of NSGAII, ε-NSGAII and εMOEA. In International Conference on Evolutionary Multi-Criterion Optimization (pp. 386-398). Springer, Berlin, Heidelberg.
 
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
 {% include list-posts tag='modeling' %}
+

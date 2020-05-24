@@ -10,7 +10,7 @@ tags:
     - decision support systems
     - policy analysis
     - wash
-    - article
+    - infectious disease
 categories:
     - policy
 header:
@@ -48,4 +48,4 @@ Even though many infectious diseases of poverty are related to water, the Bradle
 
 ## You May Also Like...
 {: .t60 }
-{% include list-posts tag='WASH' %}
+{% include list-posts tag='wash' %}

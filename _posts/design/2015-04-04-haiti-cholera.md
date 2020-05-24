@@ -14,7 +14,7 @@ tags:
     - haiti cholera response
     - global public health
     - writing sample
-    - article
+    - infectious disease
     - wash
 header:
    image_fullwidth: "/handwashing.jpg"

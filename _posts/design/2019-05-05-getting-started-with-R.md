@@ -245,6 +245,7 @@ Can you see anything interesting about the driver's race and their age? Me neith
 Clearly, the original dataset contains some mistakes that need to be cleaned. In the next post, I'll review this in R along with the popular machine learning package called [caret](http://topepo.github.io/caret/index.html).
 
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='statistics' %}

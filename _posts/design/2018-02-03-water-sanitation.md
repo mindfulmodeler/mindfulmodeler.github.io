@@ -34,4 +34,4 @@ View full paper at: [Sanitation in sub-Saharan Africa](https://github.com/shanno
 
 ## Other Writing Samples
 {: .t60 }
-{% include list-posts tag='writing sample' %}
+{% include list-posts tag='wash' %}

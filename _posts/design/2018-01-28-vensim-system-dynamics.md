@@ -72,6 +72,7 @@ The ``.lib`` extension is a static version and the ``.dll`` is the dynamic versi
 
 [Vensim DLL Overview](hhttps://www.vensim.com/documentation/index.html?dss_dll.htm)
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='system dynamics' %}

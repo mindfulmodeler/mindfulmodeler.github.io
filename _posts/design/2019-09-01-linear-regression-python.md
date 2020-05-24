@@ -3,14 +3,15 @@ layout: page
 sidebar: left
 subheadline: Single and multivariate linear regression
 title:  "Linear Regression in Python"
-teaser: "Applying single and multivariate linear regression using python to a global policy problem."
+teaser: "Applying linear regression using python to a global policy problem."
 tags:
     - policy analysis with python
     - understanding linear regression
     - statistics for data science
     - beginner machine learning
-    - article
+    - modeling
     - python
+    - statistics
 categories:
     - tutorial
 header:
@@ -243,6 +244,8 @@ Policymakers often want an answer to questions like: *"did policy x lead to outc
 No matter the chosen method for data analysis, plotting the data you are trying to analyze is a critical part of the process. Scripting languages such as Python and especially R are useful for generating statistical plots (see: [Intro to R](/getting-started-with-R/)). As with all summary statistics, it is important to properly understand and apply the assumptions behind linear regression. See [Anscombe's quartet](https://medium.com/datadriveninvestor/anscombes-quartet-12649db7eac0) for a particularly infamous example of the improper application of Linear Regression. In an upcoming blog post, I'll dive deeper into this topic and explain some features of *multivariate* linear regression.
 
 
-## Other Modeling Posts
+<!-- Note: might be good place for a gallery here -->
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='statistics' %}
+

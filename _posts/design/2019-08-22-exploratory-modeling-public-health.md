@@ -10,6 +10,7 @@ tags:
     - deep uncertainty
     - exploratory modeling
     - multi-disease modeling
+    - system dynamics
     - article
 categories:
     - modeling
@@ -64,6 +65,6 @@ Kwakkel, J. H. (2017). The Exploratory Modeling Workbench: An open source toolki
 Kasprzyk, J. R., Nataraj, S., Reed, P. M., & Lempert, R. J. (2013). Many objective robust decision making for complex environmental systems undergoing change. Environmental Modelling & Software, 42, 55-71.
 
 
-## Other Modeling Posts
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='policy analysis with python' %}

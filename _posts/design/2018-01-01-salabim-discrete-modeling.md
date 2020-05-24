@@ -11,7 +11,7 @@ tags:
     - WASH
     - data analytics
     - tutorials
-    - article
+    - modeling
 categories:
     - modeling
 image:
@@ -157,7 +157,8 @@ You can download the full Jupyter notebook of this example from [github](https:/
 
 
 
-
-## Other Modeling Posts
+ 
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='policy analysis with python' %} 
+

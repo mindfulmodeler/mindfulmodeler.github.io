@@ -7,4 +7,4 @@ permalink: "/info/"
 header:
     image_fullwidth: "/unsplashD.jpg"
 ---
-
+Content coming soon

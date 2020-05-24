@@ -9,6 +9,7 @@ tags:
     - policy analysis with python
     - system dynamics
     - population growth
+    - modeling
     - article
 categories:
     - modeling
@@ -41,6 +42,7 @@ If you are beginner in continuous modeling and/or Vensim, this example may be he
 [View the full model here](https://github.com/shannongross/code_support/tree/master/vensim_population_model) (Note: Requires [Vensim](https://vensim.com/vensim-software/) to run).
 
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='system dynamics' %}

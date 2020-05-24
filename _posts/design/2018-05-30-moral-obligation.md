@@ -11,6 +11,7 @@ tags:
     - morality and technology
     - article
     - writing sample
+    - wash
 categories:
     - policy
 header:

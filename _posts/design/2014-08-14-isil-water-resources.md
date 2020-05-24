@@ -30,7 +30,8 @@ In recent months, a Sunni Muslim insurgent group has surprised the world with a 
 
 Click here to view full paper: [The Islamic State: Syria, Iraq, and Water Resources](https://github.com/shannongross/shannongross.github.io/blob/master/pdfs/isil.pdf)
 
-## Other Posts
+ 
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='policy' %}
+{% include list-posts tag='policy analysis' %} 
 

@@ -12,6 +12,8 @@ tags:
     - understanding linear regression
     - beginner machine learning
     - article
+    - wash
+    - statistics
 categories:
     - tutorial
 header:
@@ -356,6 +358,6 @@ Our model has returned predictions that are pretty close to the actual results. 
 
 
 
-## Other Modeling Posts
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='statistics' %}

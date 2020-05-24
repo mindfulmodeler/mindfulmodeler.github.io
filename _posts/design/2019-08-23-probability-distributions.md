@@ -11,6 +11,7 @@ tags:
     - scipy.stats
     - beginner machine learning
     - article
+    - statistics
 categories:
     - tutorial
 header:
@@ -222,6 +223,8 @@ How should uncertainty be handled when a system has some kind of randomness? Hav
 **Caution**: Using a standard probability model may not work for all types of uncertainty, especially [deep uncertainty](/exploratory-modeling-public-health/).
 
 
-## Other Modeling Posts
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='statistics' %}
+
+

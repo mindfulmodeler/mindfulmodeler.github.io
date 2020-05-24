@@ -66,6 +66,7 @@ Kwakkel, J. H., Walker, W. E., & Haasnoot, M. (2016). Coping with the wickedness
 
 
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='policy analysis with python' %}

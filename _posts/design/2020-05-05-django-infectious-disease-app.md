@@ -343,6 +343,12 @@ Now we have a fresh copy of the disease data for our database. This is great for
 ## What's next?
 In the next post, I'll cover building effective API endpoints and using the python package Graphene for advanced querying and mutation. Stay tuned!
 
+## You Might Also Like...
+{: .t60 }
+{% include list-posts tag='infectious disease' %}
+
+
+
 
 
 <!-- NOTES TO SELF
@@ -364,6 +370,4 @@ Create a Python database-access API for accessing Disease and Pathogen objects.
 
 
 
-<!-- ## Other Modeling Posts
-{: .t60 }
-{% include list-posts tag='modeling' %} -->
+

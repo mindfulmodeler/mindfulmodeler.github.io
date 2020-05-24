@@ -217,6 +217,8 @@ Exploratory modeling and analysis is a powerful tool that is growing in populari
 
  In an upcoming blog post, I'll dive deeper into the pros and cons of different visualization methods. I'll also discuss the use of multiple problem formulations. You can view the full Jupyter notebook containing this code <a href="https://github.com/shannongross/code_support/blob/master/OE_Visualization_Example.ipynb" target="_blank">here</a>.
 
-## Other Modeling Posts
+<!-- Note: this would be a good place for a gallery -->
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='policy analysis with python' %}

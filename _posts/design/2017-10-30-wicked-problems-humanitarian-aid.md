@@ -11,7 +11,7 @@ tags:
     - development in conflict
     - governance of epidemic response
     - wicked problems
-    - article
+    - infectious disease
 categories:
     - policy
 header: 
@@ -30,6 +30,6 @@ Click here to view full paper: [The Governance of Epidemic Responses in Conflict
 
 
  
-## Other Writing Samples
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='writing sample' %} 
+{% include list-posts tag='infectious disease' %} 

@@ -9,7 +9,8 @@ tags:
     - policy analysis with python
     - neglected tropical disease
     - Ascaris lumbricoides python
-    - article
+    - modeling
+    - infectious disease
 categories:
     - modeling
 header:
@@ -109,6 +110,7 @@ Current treatment policy, India: Entire population treated, 1x per year for 6 ye
 (Note: Requires [Vensim](https://vensim.com/vensim-software/) to run).
 
 
-## Other Modeling Posts
+
+## You Might Also Like...
 {: .t60 }
-{% include list-posts tag='modeling' %}
+{% include list-posts tag='system dynamics' %}
