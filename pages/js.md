@@ -18,11 +18,11 @@ widget2:
   url: '/tutorial/'
   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
   image: images/movingwindow2.jpg
-widget3:
-  title: "Calculating L-Moments"
-  url: '/tutorial/'
-  image: http://localhost:4000/home/images/hypoth_testing_cover.jpg
-  text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
+# widget3:
+#   title: "Calculating L-Moments"
+#   url: '/tutorial/'
+#   image: http://localhost:4000/home/images/hypoth_testing_cover.jpg
+#   text: 'Random paragraph here. Random paragraph here. Random paragraph here. Random paragraph here. '
 
 ---
 Content coming soon.
