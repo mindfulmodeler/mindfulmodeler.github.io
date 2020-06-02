@@ -83,7 +83,23 @@
 	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
 	<meta name="twitter:title" content="{{ title }}">
 	<meta name="twitter:description" content="{{ description }}">
-	{% if page.image.title %}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
+
+	{% if page.header %}
+	<meta name="twitter:card"  content="summary_large_image">
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.header.image_fullwidth }}">
+	{% else %}
+	<meta name="twitter:card"  content="summary">
+	<meta name="twitter:image" content="{{ site.title_image }}">
+	{% endif %}
+
+
+	<!-- header:
+    image_fullwidth: "/covid-unsplash.jpg"
+
+	{% if page.image.title %}
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">
+	
+	{% endif %} -->
 	{% endif %}
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">
@@ -99,3 +115,22 @@
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
+<!-- Twitter cards SMG FIX -->
+<!-- <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:creator" content="@{{ page.author }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.summary }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.title_image }}">
+{% endif %} -->
+<!-- end of Twitter cards -->
