@@ -348,8 +348,10 @@ In the next post, I'll cover building effective API endpoints and using the pyth
 {% include list-posts tag='infectious disease' %}
 
 
+<!-- # TESTING
+![DEL TEST]({{ site.urlimg }}{{ page.header.image_fullwidth }}) -->
 
-
+<!-- ({{site.baseurl}}/images/lets-do-this.jpg)  -->
 
 <!-- NOTES TO SELF
 1. Come up with UML diagram for this new django project. 

@@ -85,11 +85,12 @@
 	<meta name="twitter:description" content="{{ description }}">
 
 	{% if page.header %}
-	<meta name="twitter:card"  content="summary_large_image">
+	<!-- <meta name="twitter:card"  content="summary_large_image"> -->
 	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.header.image_fullwidth }}">
 	{% else %}
-	<meta name="twitter:card"  content="summary">
-	<meta name="twitter:image" content="{{ site.title_image }}">
+	<!-- <meta name="twitter:card"  content="summary"> -->
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ site.image.title }}">
+	<!-- <meta name="twitter:image" content="{{ site.title_image }}"> -->
 	{% endif %}
 
 
