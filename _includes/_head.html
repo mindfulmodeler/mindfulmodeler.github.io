@@ -76,13 +76,13 @@
 	</script>
 
 
-	{% if site.socialmedia.twitter %}
+	<!-- {% if site.socialmedia.twitter %} -->
 	<!-- Twitter -->
-	<meta name="twitter:card" content="summary">
+	<!-- <meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="{{ site.socialmedia.twitter }}">
 	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
 	<meta name="twitter:title" content="{{ title }}">
-	<meta name="twitter:description" content="{{ description }}">
+	<meta name="twitter:description" content="{{ description }}"> -->
 
 	<!-- {% if page.header %} -->
 	<!-- <meta name="twitter:card"  content="summary_large_image"> -->
@@ -94,14 +94,26 @@
 	<!-- <meta name="twitter:image" content="{{ site.title_image }}"> -->
 	<!-- {% endif %} -->
 
-
+	{% if site.socialmedia.twitter %}
+	{% if seo_tag.image %}
+	  <meta name="twitter:card" content="summary_large_image" />
+	{% else %}
+	  <meta name="twitter:card" content="summary" />
+	{% endif %}
+  
+	<meta name="twitter:site" content="{{ site.socialmedia.twitter }}">
+	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
+	<meta name="twitter:title" content="{{ title }}">
+	<meta name="twitter:description" content="{{ description }}">
+  
+  	{% endif %}
 
 	<!-- 
 	{% if page.image.title %}
 	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">
 	
 	{% endif %} -->
-	{% endif %}
+	<!-- {% endif %} -->
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">
 
