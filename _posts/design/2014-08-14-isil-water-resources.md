@@ -20,6 +20,7 @@ image:
     # caption: Unsplash.com
     # caption_url: http://unsplash.com
 author: Shannon M. Gross
+image: /isil.jpg
 comments: true
 ---
 __Winner of the 2014 [Peter C. Braeger Undergraduate Writing Award](https://www.gannon.edu/Academic-Offerings/Humanities-Education-and-Social-Sciences/Undergraduate/English/Writing-Contests/)__
