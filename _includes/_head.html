@@ -94,7 +94,9 @@
 	<!-- <meta name="twitter:image" content="{{ site.title_image }}"> -->
 	<!-- {% endif %} -->
 
-	{% if site.socialmedia.twitter %}
+
+	
+	<!-- {% if site.socialmedia.twitter %}
 	{% if seo_tag.image %}
 	  <meta name="twitter:card" content="summary_large_image" />
 	{% else %}
@@ -106,7 +108,32 @@
 	<meta name="twitter:title" content="{{ title }}">
 	<meta name="twitter:description" content="{{ description }}">
   
-  	{% endif %}
+  	{% endif %} -->
+
+
+
+
+
+	<meta name="twitter:site" content="{{ site.socialmedia.twitter }}">
+	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
+	<meta name="twitter:title" content="{{ title }}">
+	<meta name="twitter:description" content="{{ description }}">
+	{% if page.image %}
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image }}">
+	{% else %}
+	<meta name="twitter:image" content="{{ site.urlimg }}/aedes.jpg}">
+	{% endif %}
+	<meta name="twitter:description" content="{{ description }}">
+	{% if page.image.title %}
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">
+	{% else %}
+	<meta name="twitter:image" content="{{ site.urlimg }}/aedes.jpg}">
+	{% endif %}
+	{% if page.header.image_fullwidth %}
+	<meta name="twitter:image" content="{{ site.urlimg }}{{ page.header.image_fullwidth }}">
+	{% endif %}
+  
+
 
 	<!-- 
 	{% if page.image.title %}
