@@ -19,6 +19,7 @@ image:
     thumb: /ascaris_thumb.jpg
 show_meta: true
 comments: true
+title_image: "/ascaris_sfd.jpg"
 ---
 
 It is estimated that up to 24% of the global population is infected by the parasitic worm *Ascaris lumbricoides*. Take a moment to let that sink in - that's nearly **one in four human beings** on planet earth today.
